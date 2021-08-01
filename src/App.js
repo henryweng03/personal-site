@@ -1,11 +1,9 @@
-import './App.css';
+import Hero from "./components/hero";
 
 function App() {
   return (
     <div>
-      <div className="border-2 border-black bg-blue-500">
-        <h1 className="text-green-500">Hello World</h1>
-      </div>
+      <Hero />
     </div>
   );
 }

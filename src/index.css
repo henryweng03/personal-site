@@ -2,3 +2,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  p {
+    @apply font-inter text-lg text-white;
+  }
+}
+
+.hero-header{
+  @apply text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-inter text-white
+}
+
+.outline-button{
+  @apply transition duration-500 ease-in-out bg-transparent hover:bg-purple hover:border-transparent
+  text-white py-3 px-6 border border-white hover:shadow-purple
+  rounded-lg text-lg font-sfmono font-light
+}
+
+.filled-button{
+  @apply bg-purple hover:bg-purple-dark hover:shadow-purple
+  text-white py-3 px-6
+  rounded-lg text-xl font-sfmono font-light
+}
+
+
+@font-face {
+  font-family: 'SFMono';
+  font-weight: 400;
+  src: url('./fonts/SFMono/SFMonoRegular.otf')
+}
+
+@font-face {
+  font-family: 'SFMono';
+  font-weight: 700;
+  src: url('./fonts/SFMono/SFMonoBold.otf')
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  src: url('./fonts/Inter/Inter-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  src: url('./fonts/Inter/Inter-SemiBold.ttf')
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url('./fonts/Inter/Inter-Bold.ttf')
+}
