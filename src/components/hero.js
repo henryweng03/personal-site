@@ -30,8 +30,9 @@ const Hero = () => {
                   'making cool things.',
                   'solving problems.', 
                   'learning.', 
-                  'building apps.', 
-                  'leading people.',
+                  'developing apps.', 
+                  'meeting people.',
+                  'eating good food.',
                 ],
                 autoStart: true,
                 loop: true,
@@ -42,10 +43,10 @@ const Hero = () => {
             >
             </Typewriter>
         </b>
-      </div><br />
-      <div className="flex">
-       <p className="sm:w-2/3 sm:max-w-4xl">
-         I'm a freshman at Stanford University pursuing
+      </div>
+      <div className="flex mt-6">
+       <p className="sm:w-2/3 sm:max-w-6xl">
+         I'm a first-year at Stanford University pursuing
          a degree in computer science and economics. I'm also the co-founder 
          of the <a className="link" href="theyei.org">
            Youth Economics Initiative
@@ -53,7 +54,7 @@ const Hero = () => {
          a network of economics clubs in 60+ schools serving over 2,500 students.
        </p>
       </div>
-      <button className="outline-button mt-8 sm:mt-14">
+      <button className="outline-button mt-6 sm:mt-14">
         Get in touch →
       </button>
     </div>
