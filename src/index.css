@@ -24,6 +24,10 @@
   text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono 
 }
 
+.link{
+  @apply transition duration-100 text-purple-light hover:text-purple-dark hover:bg-purple-light
+}
+
 
 @font-face {
   font-family: 'SFMono';
