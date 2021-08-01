@@ -11,24 +11,17 @@
     @apply text-2xl;
   }
   p {
-    @apply font-inter text-lg text-white;
+    @apply font-inter text-base text-white sm:text-lg;
   }
 }
 
 .hero-header{
-  @apply text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-inter text-white
+  @apply my-0 text-2xl sm:text-4xl sm:my-1 md:text-4xl lg:text-5xl lg:my-2 font-inter text-white
 }
 
 .outline-button{
-  @apply transition duration-500 ease-in-out bg-transparent hover:bg-purple hover:border-transparent
-  text-white py-3 px-6 border border-white hover:shadow-purple
-  rounded-lg text-lg font-sfmono font-light
-}
-
-.filled-button{
-  @apply bg-purple hover:bg-purple-dark hover:shadow-purple
-  text-white py-3 px-6
-  rounded-lg text-xl font-sfmono font-light
+  @apply text-base transition duration-300 ease-in-out hover:bg-purple hover:border-transparent hover:shadow-purple
+  text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono 
 }
 
 
