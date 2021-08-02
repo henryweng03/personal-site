@@ -5,22 +5,22 @@
 
 @layer base {
   h1 {
-    @apply text-3xl;
+    @apply text-3xl font-inter;
   }
   h2 {
-    @apply text-2xl;
+    @apply text-2xl font-inter;
   }
   p {
-    @apply font-sfdisplay text-base text-white sm:text-lg tracking-wide;
+    @apply font-messinasans text-base text-white sm:text-lg;
   }
 }
 
 .hero-header{
-  @apply my-0 text-lg sm:text-4xl sm:my-1 md:text-4xl lg:text-5xl lg:my-2 font-inter text-white
+  @apply my-0 text-lg sm:text-4xl sm:my-1 md:text-4xl lg:text-5xl lg:my-2 text-white font-inter
 }
 
 .outline-button{
-  @apply text-base transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-purple
+  @apply text-sm transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-purple
   text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono 
 }
 
@@ -29,9 +29,15 @@
 }
 
 @font-face {
-  font-family: 'SFDisplay';
+  font-family: 'MessinaSans';
   font-weight: 400;
-  src: url('./fonts/SFDisplay/SFUIDisplay-Regular.otf')
+  src: url('./fonts/MessinaSans/MessinaSans-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'MessinaSans';
+  font-weight: 700;
+  src: url('./fonts/MessinaSans/MessinaSans-Black.ttf')
 }
 
 @font-face {

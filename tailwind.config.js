@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         'inter': ["Inter", "Segoe UI"],
         'sfmono': ["SFMono"],
-        'sfdisplay': ["SFDisplay"],
+        'messinasans': ["MessinaSans", "Segoe UI"],
       },
       colors: {
         transparent: 'transparent',
