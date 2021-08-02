@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'inter': ["Inter", "Segoe UI"],
-        'sfmono': ["SFMono"]
+        'sfmono': ["SFMono"],
+        'sfdisplay': ["SFDisplay"],
       },
       colors: {
         transparent: 'transparent',
@@ -20,10 +21,15 @@ module.exports = {
           DEFAULT: '#866FF7',
           vibrant: '#4016ca',
           dark: '#5E49A3'
+        },
+        emerald: {
+          light: '#92DDAB',
+          DEFAULT: '#3BBA65',
+          dark: '#226D3A',
         }
       },
       boxShadow: {
-        purple : '0 0px 15px 0px rgba(139, 108, 239, 0.7)'
+        purple : '0 0px 15px 0px rgba(80, 200, 120, 0.7)'
       },
       inset: {
         '3/10': "30%",

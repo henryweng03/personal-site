@@ -110,7 +110,7 @@
   }
 
   100%{
-      transform: translateY(-40vh) rotate(180deg);
+      transform: translateY(-45vh) rotate(180deg);
       opacity: 0;
       border-radius: 50%;
   }

@@ -11,23 +11,28 @@
     @apply text-2xl;
   }
   p {
-    @apply font-inter text-base text-white sm:text-lg;
+    @apply font-sfdisplay text-base text-white sm:text-lg tracking-wide;
   }
 }
 
 .hero-header{
-  @apply my-0 text-2xl sm:text-4xl sm:my-1 md:text-4xl lg:text-5xl lg:my-2 font-inter text-white
+  @apply my-0 text-lg sm:text-4xl sm:my-1 md:text-4xl lg:text-5xl lg:my-2 font-inter text-white
 }
 
 .outline-button{
-  @apply text-base transition duration-300 ease-in-out hover:bg-purple hover:border-transparent hover:shadow-purple
+  @apply text-base transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-purple
   text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono 
 }
 
 .link{
-  @apply transition duration-100 text-purple-light hover:text-purple-dark hover:bg-purple-light
+  @apply transition duration-100 text-emerald-light hover:text-emerald-dark hover:bg-emerald-light
 }
 
+@font-face {
+  font-family: 'SFDisplay';
+  font-weight: 400;
+  src: url('./fonts/SFDisplay/SFUIDisplay-Regular.otf')
+}
 
 @font-face {
   font-family: 'SFMono';
