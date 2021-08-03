@@ -1,6 +1,6 @@
 .hero-background{
   background: rgb(34,61,109);
-  background: linear-gradient(117deg, rgba(34,61,109,1) 0%, rgb(38, 69, 128) 100%);
+  background: linear-gradient(180deg, rgb(54, 97, 171) 0%, rgba(34,61,109) 90%);
 }
 .circles{
   position: absolute;
@@ -19,7 +19,7 @@
   height: 20px;
   background: rgba(255, 255, 255, 0.1);
   animation: animate 12s linear infinite;
-  bottom: -150px;
+  top: -150px;
   
 }
 
@@ -99,8 +99,6 @@
   animation-duration: 6s;
 }
 
-
-
 @keyframes animate {
 
   0%{
@@ -110,7 +108,7 @@
   }
 
   100%{
-      transform: translateY(-45vh) rotate(180deg);
+      transform: translateY(45vh) rotate(180deg);
       opacity: 0;
       border-radius: 50%;
   }

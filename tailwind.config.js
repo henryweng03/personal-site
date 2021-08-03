@@ -29,15 +29,10 @@ module.exports = {
         }
       },
       boxShadow: {
-        purple : '0 0px 15px 0px rgba(80, 200, 120, 0.7)'
+        green : '0 0px 15px 0px rgba(80, 200, 120, 0.7)'
       },
-      inset: {
-        '3/10': "30%",
-        '-3/10': "-30%"
-      },
-      translate: {
-        '3/10': "30%",
-        '-3/10': "-30%"
+      height: {
+        screenBigger: '125vh'
       }
     },
   },
