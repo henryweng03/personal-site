@@ -17,6 +17,11 @@ const Header = () => {
               getExperience()
             </p>
           </a>
+          <a href="#projects">
+            <p className = "nav-link mr-4">
+              getProjects()
+            </p>
+          </a>
           <a href="/">
             <button className="outline-button-sm">
               getResume()

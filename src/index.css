@@ -52,13 +52,28 @@ html {
 }
 
 .link{
-  @apply transition duration-100 text-emerald-light hover:text-emerald-dark hover:bg-emerald-light
+  @apply transition duration-75 text-emerald-light hover:text-emerald-dark hover:bg-emerald-light
+}
+
+.hover-border{
+  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-emerald-light hover:bg-emerald-light hover:bg-opacity-5 -mt-6 mb-0
+}
+
+.tag-wrapper{
+  @apply py-0.5 px-2 rounded-full bg-emerald mr-2 mb-2
 }
 
 @media only screen and (min-width: 640px) {
-  .body-grid{
+  .experience-grid{
     display: grid;
     grid-template-columns: 13.5em 1fr;
+  }  
+}
+
+@media only screen and (min-width: 1024px) {
+  .project-grid{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
   }  
 }
 

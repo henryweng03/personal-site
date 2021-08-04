@@ -1,0 +1,18 @@
+[
+  {
+    "projectName": "Refood",
+    "techStack": [
+      "React JS",
+      "Cloud Firestore", 
+      "Firebase", 
+      "JavaScript", 
+      "CSS", 
+      "HTML"
+    ],
+    "description": [
+      "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away",
+      "Apple sauce"
+    ],
+    "imgSrc": "../images/refood.png"
+  }
+]

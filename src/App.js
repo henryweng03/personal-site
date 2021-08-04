@@ -1,6 +1,7 @@
 import Experience from "./sections/experience";
 import Hero from "./sections/hero";
 import Header from "./sections/header"
+import Projects from "./sections/projects"
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <div id="experience">
         <Experience />
       </div>
-      <Experience />
-      <Experience />
+      <div id="projects">
+        <Projects />
+      </div>
     </div>
   );
 }
