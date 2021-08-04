@@ -33,6 +33,9 @@ module.exports = {
       },
       height: {
         screenBigger: '125vh'
+      },
+      listStyleType: {
+        square: 'square',
       }
     },
   },

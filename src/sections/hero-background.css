@@ -1,6 +1,6 @@
 .hero-background{
   background: rgb(34,61,109);
-  background: linear-gradient(180deg, rgb(54, 97, 171) 0%, rgba(34,61,109) 90%);
+  background: linear-gradient(180deg, rgb(54, 97, 171) 0%, rgba(34,61,109) 70%);
 }
 .circles{
   position: absolute;

@@ -6,13 +6,6 @@ import './hero-background.css'
 const Hero = () => {
   return (
     <div>
-      <div className = "absolute z-10 h-8 w-8 sm:h-10 sm:w-10 mt-5 ml-5">
-        <div className='absolute logo-wrapper'>
-          <a href="/">
-            <img src="../images/personal-logo.png" alt="logo" />
-          </a>
-        </div>
-      </div>
       <div className="relative h-screen hero-background flex items-center">
         <ul class="circles">
           <li></li>

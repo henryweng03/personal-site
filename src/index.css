@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   h1 {
     @apply text-3xl font-inter;
@@ -17,8 +21,12 @@
     @apply font-messinasans text-base text-white sm:text-lg;
   }
   li {
-    @apply font-messinasans text-base text-gray-300 sm:text-lg pb-2;
+    @apply font-messinasans text-base text-gray-300 sm:text-lg pb-1;
   }
+}
+
+.nav-link{
+  @apply font-sfmono hidden sm:text-sm sm:block transition duration-100 text-white hover:text-emerald-light
 }
 
 .hero-header{
@@ -26,7 +34,7 @@
 }
 
 .section-header{
-  @apply text-xl sm:text-2xl lg:text-2xl text-white font-sfmono
+  @apply text-xl sm:text-xl lg:text-xl text-white font-sfmono
 }
 
 .date{
@@ -38,6 +46,11 @@
   text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono 
 }
 
+.outline-button-sm{
+  @apply text-xs transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-green
+  text-white py-2 px-4 border border-white rounded-lg sm:text-sm font-sfmono 
+}
+
 .link{
   @apply transition duration-100 text-emerald-light hover:text-emerald-dark hover:bg-emerald-light
 }
@@ -45,7 +58,7 @@
 @media only screen and (min-width: 640px) {
   .body-grid{
     display: grid;
-    grid-template-columns: 20em 1fr;
+    grid-template-columns: 13.5em 1fr;
   }  
 }
 
@@ -95,4 +108,27 @@
   font-family: 'Inter';
   font-weight: 700;
   src: url('./fonts/Inter/Inter-Bold.ttf')
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-4
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #edf2f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7396D3;
+  border-radius: 100vh;
+  border: 4px solid #edf2f7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue
 }
