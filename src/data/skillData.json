@@ -1,0 +1,20 @@
+[
+  {
+    "languages": [
+      "Java",
+      "Python", 
+      "JavaScript",  
+      "CSS", 
+      "HTML"
+    ],
+    "technologies": [
+      "React JS",
+      "Firebase", 
+      "Selenium", 
+      "NumPy",
+      "Beautiful Soup", 
+      "statsmodels", 
+      "pandas"
+    ]
+  }
+]

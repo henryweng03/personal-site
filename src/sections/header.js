@@ -22,6 +22,11 @@ const Header = () => {
               getProjects()
             </p>
           </a>
+          <a href="#skills">
+            <p className = "nav-link mr-4">
+              getSkills()
+            </p>
+          </a>
           <a href="/">
             <button className="outline-button-sm">
               getResume()

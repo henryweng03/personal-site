@@ -3,16 +3,47 @@
     "projectName": "Refood",
     "techStack": [
       "React JS",
-      "Cloud Firestore", 
       "Firebase", 
+      "Google Maps API", 
+      "Cloud Firestore",
       "JavaScript", 
       "CSS", 
       "HTML"
     ],
-    "description": [
-      "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away",
-      "Apple sauce"
+    "description": 
+      "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away"
+    ,
+    "imgSrc": "../images/refood.png",
+    "projectLink": "https://github.com/henryweng03/refood/"
+  },
+  {
+    "projectName": "AllerScan",
+    "techStack": [
+      "Flutter",
+      "Firebase",
+      "Dart",
+      "Material UI",
+      "Google Cloud Vision"
     ],
-    "imgSrc": "../images/refood.png"
+    "description": 
+      "Implemented a cross-platform CRUD application that uses Google Cloud Vision's OCR to detect user-inputted allergens in food labels"
+    ,
+    "imgSrc": "../images/allerscan.png",
+    "projectLink": "https://github.com/henryweng03/personal-site"
+  },
+  {
+    "projectName": "Personal Website",
+    "techStack": [
+      "React JS",
+      "Tailwind CSS", 
+      "JavaScript", 
+      "CSS", 
+      "HTML"
+    ],
+    "description": 
+      "The website that you're visting right now — made with love, caffeine and React JS"
+    ,
+    "imgSrc": "../images/PersonalSite.png",
+    "projectLink": "https://github.com/henryweng03/personal-site"
   }
 ]

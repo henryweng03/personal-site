@@ -22,11 +22,10 @@ const Projects = () => {
                   techStack = {data.techStack}
                   description = {data.description}
                   imgSrc = {data.imgSrc}
+                  projectLink = {data.projectLink}
                 />
                 <div className="h-12"></div>
               </div>
-
-              
             ))}
         </div>
       </div>
