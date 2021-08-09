@@ -49,7 +49,7 @@ const Education = () => {
             <div className = "flex justify-center md:block">
               <img className="rounded-lg w-2/3 md:w-auto" src="../images/saratoga-green.jpg" alt="Stanford Background" />
             </div>
-            <div className="mt-6 md:mt-0 md:pl-10 md:pr-16">
+            <div className="mt-6 md:mt-0 md:pl-10 ">
               <div className = "flex justify-center md:block">
                 <h3>
                   <a href="https://www.saratogahigh.org/" className="link" target="_blank" rel="noreferrer">Saratoga High School</a>
