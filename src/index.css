@@ -29,6 +29,14 @@ html {
   @apply font-sfmono hidden sm:text-xs lg:text-sm md:block transition duration-75 text-white hover:text-emerald-light
 }
 
+.link{
+  @apply transition duration-75 text-emerald-light hover:text-emerald-dark hover:bg-emerald-light
+}
+
+.footer-link{
+  @apply font-sfmono text-xs lg:text-sm transition duration-75 text-white hover:text-emerald-light
+}
+
 .hero-header{
   @apply my-0 text-3xl sm:text-4xl sm:my-1 lg:text-5xl lg:my-2 text-white font-inter
 }
@@ -49,10 +57,6 @@ html {
 .outline-button-sm{
   @apply text-xs transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-green
   text-white py-2 px-4 border border-white rounded-lg lg:text-sm font-sfmono 
-}
-
-.link{
-  @apply transition duration-75 text-emerald-light hover:text-emerald-dark hover:bg-emerald-light
 }
 
 .hover-border{
@@ -78,6 +82,20 @@ html {
   .project-grid{
     display: grid;
     grid-template-columns: 5fr 3fr;
+  }  
+}
+
+@media only screen and (min-width: 768px) {
+  .education-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }  
+}
+
+@media only screen and (min-width: 768px) {
+  .education-grid-alt{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
   }  
 }
 

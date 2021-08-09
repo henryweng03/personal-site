@@ -26,7 +26,7 @@
       "Google Cloud Vision"
     ],
     "description": 
-      "Implemented a cross-platform CRUD application that uses Google Cloud Vision's OCR to detect user-inputted allergens in food labels"
+      "Cross-platform mobile app that uses Google Cloud Vision's OCR to detect user-inputted allergens in food labels"
     ,
     "imgSrc": "../images/allerscan.png",
     "projectLink": "https://github.com/henryweng03/personal-site"

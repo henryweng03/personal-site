@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
@@ -22,12 +25,17 @@ const Header = () => {
               getProjects()
             </p>
           </a>
+          <a href="#education">
+            <p className = "nav-link mr-4">
+              getEducation()
+            </p>
+          </a>
           <a href="#skills">
             <p className = "nav-link mr-4">
               getSkills()
             </p>
           </a>
-          <a href="/">
+          <a href="/downloads/hwengResume.pdf" download>
             <button className="outline-button-sm">
               getResume()
             </button>
