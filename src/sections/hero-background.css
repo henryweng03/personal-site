@@ -1,7 +1,7 @@
 .hero-background{
   background: rgb(34,61,109);
-  background: linear-gradient(180deg, rgb(54, 97, 171) 0%, rgba(34,61,109) 100%);
 }
+
 .circles{
   position: absolute;
   top: 0;
@@ -17,7 +17,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
   animation: animate 12s linear infinite;
   top: -150px;
   

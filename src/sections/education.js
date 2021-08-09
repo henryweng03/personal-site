@@ -14,7 +14,7 @@ const Education = () => {
         <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
           <div className="education-grid">
             <div className = "flex justify-center md:block">
-              <img className="rounded-xl w-2/3 md:w-auto" src="../images/stanford-green.jpg" alt="Stanford Background" />
+              <img className="rounded-lg w-2/3 md:w-auto" src="../images/stanford-green.jpg" alt="Stanford Background" />
             </div>
             <div className="mt-6 md:mt-0 md:pl-10">
               <div className = "flex justify-center md:block">
@@ -47,7 +47,7 @@ const Education = () => {
 
           <div className="education-grid">
             <div className = "flex justify-center md:block">
-              <img className="rounded-xl w-2/3 md:w-auto" src="../images/saratoga-green.jpg" alt="Stanford Background" />
+              <img className="rounded-lg w-2/3 md:w-auto" src="../images/saratoga-green.jpg" alt="Stanford Background" />
             </div>
             <div className="mt-6 md:mt-0 md:pl-10 md:pr-16">
               <div className = "flex justify-center md:block">
