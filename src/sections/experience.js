@@ -22,6 +22,15 @@ const Experience = () => {
               <li>Revamped node rendering on the Karl UI web application</li>
               <li>Building and deploying Karl website on stanford.edu domain</li>
             </ul>
+            <div id="yei" className="h-8"></div>
+            <h3>Co-founder and Chairmain @ <a href="https://theyei.org/" className="link" target="_blank" rel="noreferrer">Youth Economics Initiative</a></h3>
+            <p className="date">Mar 2019 - Present</p>
+            <ul className="list-square pl-8 pt-3">
+              <li>Co-founded the largest coalition of economics clubs in the world (60+ clubs, 2500+ members, 45+ staff)</li>
+              <li>Manage organization some of the largest international <a href="https://theyei.org/events" className="link" target="_blank" rel="noreferrer">economics competitions and events</a> with 1200+ attendees total</li>
+              <li>Partnered with Bank of America to develop the <a href="https://theyei.org/programs/flip/" className="link" target="_blank" rel="noreferrer">FLIP program</a>, which provides free financial literacy education to underserved youth</li>
+              <li>Assembled and work with an advisory board consisting of the Dean Emeritus of Columbia Business School, nonprofit directors, and economics professors</li>
+            </ul>
             <div className="h-8"></div>
             <h3>Research Assistant @ <a href="https://bepp.wharton.upenn.edu/profile/smetters/" className="link" target="_blank" rel="noreferrer">The Wharton School</a></h3>
             <p className="date">June 2020 - Sept 2020</p>
@@ -41,7 +50,7 @@ const Experience = () => {
                 LifeMoves’s 13 homeless shelter branches</li>
               <li>Collaborated with Bank of America Market President to allocate 
                 $400,000 in Neighborhood Builders grants</li>
-              <li>Work featured <a href="https://www.mercurynews.com/2020/07/26/saratoga-teen-is-silicon-valley-bank-of-america-student-leader/" className="link" target="_blank" rel="noreferrer">here</a> in the San Jose Mercury News</li>
+              <li>Work featured in the <a href="https://www.mercurynews.com/2020/07/26/saratoga-teen-is-silicon-valley-bank-of-america-student-leader/" className="link" target="_blank" rel="noreferrer">San Jose Mercury News</a></li>
             </ul>
             </div>
           </div>

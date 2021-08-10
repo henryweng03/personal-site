@@ -5,13 +5,16 @@ import Footer from "./sections/footer"
 import Projects from "./sections/projects"
 import Education from "./sections/education";
 import Skills from "./sections/skills"
+import { Helmet } from "react-helmet";
 
 
 
 function App() {
-  document.title = "Henry Weng"
   return (
     <div className = "bg-blue-dark">
+      <Helmet>
+        <title>Henry Weng</title>
+      </Helmet>
       <Header />
       <Hero />
 

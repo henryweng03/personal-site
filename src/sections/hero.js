@@ -57,7 +57,7 @@ const Hero = () => {
                   a degree in computer science and economics. I'm currently
                   working as an undergraduate researcher in the Stanford Secure
                   Computer Systems group. I'm also the co-founder 
-                  of the <a className="link" target="_blank" href="https://theyei.org" rel="noreferrer">
+                  of the <a className="link" href="#yei">
                     Youth Economics Initiative
                     </a>,
                   a network of economics clubs in 60+ schools serving over 2,500 students.
