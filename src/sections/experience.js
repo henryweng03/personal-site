@@ -20,7 +20,7 @@ const Experience = () => {
                 working on Karl, a home cloud platform enhancing the security
                 IoT devices</li>
               <li>Revamped node rendering on the Karl UI web application</li>
-              <li>Building and deploying Karl website on stanford.edu domain</li>
+              <li>Built and deployed <a href="http://karl.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Karl website</a> on official stanford.edu domain</li>
             </ul>
             <div id="yei" className="h-8"></div>
             <h3>Co-founder and Chairmain @ <a href="https://theyei.org/" className="link" target="_blank" rel="noreferrer">Youth Economics Initiative</a></h3>
