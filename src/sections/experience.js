@@ -13,7 +13,7 @@ const Experience = () => {
             {'>'}{' '}getExperience()
           </h2>
           <div className="col-start-2 mt-12 px-8 md:mt-0 col-end-2 md:pl-6 md:pr-16">
-            <h3>Undergraduate Reseracher @ <a href="https://www.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Stanford University</a></h3>
+            <h3>Undergraduate Researcher @ <a href="https://www.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Stanford University</a></h3>
             <p className="date">June 2021 - Present</p>
             <ul className="list-square pl-8 pt-3">
               <li>Advised by Gina Yuan in the Secure Computer Systems group;
@@ -23,7 +23,7 @@ const Experience = () => {
               <li>Built and deployed <a href="http://karl.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Karl website</a> on official stanford.edu domain</li>
             </ul>
             <div id="yei" className="h-8"></div>
-            <h3>Co-founder and Chairmain @ <a href="https://theyei.org/" className="link" target="_blank" rel="noreferrer">Youth Economics Initiative</a></h3>
+            <h3>Co-founder and Chairman @ <a href="https://theyei.org/" className="link" target="_blank" rel="noreferrer">Youth Economics Initiative</a></h3>
             <p className="date">Mar 2019 - Present</p>
             <ul className="list-square pl-8 pt-3">
               <li>Co-founded the largest coalition of economics clubs in the world (60+ clubs, 2500+ members, 45+ staff)</li>
