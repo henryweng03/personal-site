@@ -38,7 +38,7 @@ html {
 }
 
 .hero-header{
-  @apply my-0 text-3xl sm:text-4xl sm:my-1 lg:text-5xl lg:my-2 text-white font-inter
+  @apply my-0 text-2xl sm:text-3xl sm:my-1 lg:text-4xl text-white font-inter
 }
 
 .section-header{
@@ -64,11 +64,11 @@ html {
 }
 
 .tag-wrapper{
-  @apply py-0.5 px-2 rounded-full bg-emerald mr-2 mb-2
+  @apply py-0.5 px-2 rounded-md bg-emerald mr-2 mb-2
 }
 
 .tag-outline-wrapper{
-  @apply transform duration-150 py-0.5 px-2 rounded-full border bg-opacity-0 bg-emerald border-emerald mr-2 mb-2 hover:bg-opacity-30
+  @apply transform duration-150 py-0.5 px-2 rounded-md border border-emerald mr-2 mb-2
 }
 
 @media only screen and (min-width: 768px) {

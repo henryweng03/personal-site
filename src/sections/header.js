@@ -17,14 +17,14 @@ const Header = () => {
               getExperience()
             </p>
           </a>
-          <a href="#projects">
-            <p className = "nav-link mr-4">
-              getProjects()
-            </p>
-          </a>
           <a href="#education">
             <p className = "nav-link mr-4">
               getEducation()
+            </p>
+          </a>
+          <a href="#projects">
+            <p className = "nav-link mr-4">
+              getProjects()
             </p>
           </a>
           <a href="#skills">

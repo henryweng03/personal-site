@@ -92,11 +92,11 @@
 }
 
 .circles li:nth-child(10){
-  left: 105%;
+  left: 90%;
   width: 150px;
   height: 150px;
   animation-delay: 0s;
-  animation-duration: 6s;
+  animation-duration: 8s;
 }
 
 @keyframes animate {

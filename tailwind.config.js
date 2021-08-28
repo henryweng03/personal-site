@@ -24,7 +24,7 @@ module.exports = {
         },
         emerald: {
           light: '#92DDAB',
-          DEFAULT: '#3BBA65',
+          DEFAULT: '#2EB263',
           dark: '#226D3A',
         }
       },

@@ -14,7 +14,7 @@ const Education = () => {
         <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
           <div className="education-grid">
             <div className = "flex justify-center md:block">
-              <img className="rounded-lg w-2/3 md:w-auto" src="../images/stanford.jpg" alt="Stanford Background" />
+              <img className="rounded-lg h-2/3 w-2/3 md:w-auto md:h-auto" src="../images/stanford.jpg" alt="Stanford Background" />
             </div>
             <div className="mt-6 md:mt-0 md:pl-10">
               <div className = "flex justify-center md:block">
@@ -23,14 +23,14 @@ const Education = () => {
                 </h3>
               </div>
               <div className = "flex justify-center md:block">
-                <p className="date">Sept 2021 - June 2025</p>
+                <p className="date">Exp. Graduation: June 2024</p>
               </div>
               <div className = "flex justify-center md:block">
                 <p className="date">B.S. Computer Science + Economics</p>
               </div>
               <div className="h-4"></div>
               <div className = "flex justify-center md:block">
-               <p className>Relevant Coursework</p>
+               <p>Relevant Coursework</p>
               </div>
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
@@ -47,7 +47,7 @@ const Education = () => {
 
           <div className="education-grid">
             <div className = "flex justify-center md:block">
-              <img className="rounded-lg w-2/3 md:w-auto" src="../images/saratoga.jpg" alt="Stanford Background" />
+              <img className="rounded-lg h-2/3 w-2/3 md:w-auto md:h-auto" src="../images/saratoga.jpg" alt="Saratoga High" />
             </div>
             <div className="mt-6 md:mt-0 md:pl-10 ">
               <div className = "flex justify-center md:block">
@@ -56,14 +56,11 @@ const Education = () => {
                 </h3>
               </div>
               <div className = "flex justify-center md:block">
-                <p className="date">Aug 2017 - June 2021</p>
-              </div>
-              <div className = "flex justify-center md:block">
                 <p className="date">GPA: 4.0, SAT: 1600</p>
               </div>
-                <div className="h-4"></div>
+              <div className="h-4"/>
               <div className = "flex justify-center md:block">
-                <p className>Relevant Coursework</p>
+                <p>Relevant Coursework</p>
               </div>
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
@@ -87,6 +84,28 @@ const Education = () => {
                 </div>
                 <div className="tag-outline-wrapper">
                   <p className="text-xs sm:text-sm font-sfmono">AP Statistics</p>
+                </div>
+              </div>
+              <div className="h-4"/>
+              <div className = "flex justify-center md:block">
+                <p>Awards &amp; Distinctions</p>
+              </div>
+              <div className="h-2"></div>
+              <div className="flex justify-center md:justify-start flex-wrap">
+                <div className="tag-outline-wrapper">
+                  <p className="text-xs sm:text-sm font-sfmono">USA Computing Olympiad Gold</p>
+                </div>
+                <div className="tag-outline-wrapper">
+                  <p className="text-xs sm:text-sm font-sfmono">FBLA Nationals Winner in Economics</p>
+                </div>
+                <div className="tag-outline-wrapper">
+                  <p className="text-xs sm:text-sm font-sfmono">3x Hackathon Winner</p>
+                </div>
+                <div className="tag-outline-wrapper">
+                  <p className="text-xs sm:text-sm font-sfmono">USA Physics Olympiad Semifinalist</p>
+                </div>
+                <div className="tag-outline-wrapper">
+                  <p className="text-xs sm:text-sm font-sfmono">Eagle Scout</p>
                 </div>
               </div>
            </div>

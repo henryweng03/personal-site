@@ -18,6 +18,7 @@ const Hero = () => {
           <li></li>
           <li></li>
           <li></li>
+          <li></li>
         </ul>
         <div className="mx-auto max-w-6xl sm:pl-16 z-0">
           <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">

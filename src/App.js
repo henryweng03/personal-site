@@ -17,9 +17,15 @@ function App() {
       </Helmet>
       <Header />
       <Hero />
+      
 
       <div id="experience">
         <Experience />
+      </div>
+      <div className="h-12 md:h-24 lg:h-36 bg-blue-dark"/>
+
+      <div id="education">
+        <Education />
       </div>
       <div className="h-12 md:h-24 lg:h-36 bg-blue-dark"/>
 
@@ -32,10 +38,6 @@ function App() {
       {/* Reverses the extra div in projects */}
       <div className="-mt-12"/>
 
-      <div id="education">
-        <Education />
-      </div>
-      <div className="h-12 md:h-24 lg:h-36 bg-blue-dark"/>
 
       <div id="skills">
         <Skills />
