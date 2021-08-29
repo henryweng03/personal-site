@@ -18,7 +18,7 @@ html {
     @apply font-messinasans text-lg text-white sm:text-xl;
   }
   p {
-    @apply font-messinasans text-base text-white;
+    @apply font-messinasans text-base text-white sm:text-lg;
   }
   li {
     @apply font-messinasans text-base text-gray-300 pb-1;

@@ -19,7 +19,7 @@ const Experience = () => {
               <li>Advised by Professor David Mazières in the Secure Computer Systems group;
                 working on Karl, a home cloud platform enhancing the security
                 IoT devices</li>
-              <li>Developed ranked node algorithim using BFS and dynamic programming to revamp node rendering on the Karl UI web application</li>
+              <li>Developed node ranking algorithm to overhaul module rendering on the Karl UI web application</li>
               <li>Built and deployed <a href="http://karl.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Karl website</a> on official stanford.edu domain</li>
             </ul>
             <div id="yei" className="h-8"></div>

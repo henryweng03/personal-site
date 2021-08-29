@@ -32,7 +32,7 @@ const Header = () => {
               getSkills()
             </p>
           </a>
-          <a href="/downloads/hwengResume.pdf"  target="_blank">
+          <a href="/downloads/Henry Weng Resume.pdf"  target="_blank">
             <button className="outline-button-sm">
               getResume()
             </button>
