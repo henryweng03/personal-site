@@ -29,7 +29,7 @@
       "Cross-platform mobile app that uses Google Cloud Vision's OCR to detect user-inputted allergens in food labels"
     ,
     "imgSrc": "../images/allerscan.png",
-    "projectLink": "https://github.com/henryweng03/personal-site"
+    "projectLink": "https://github.com/henryweng03/allergen-scan"
   },
   {
     "projectName": "Personal Website",
