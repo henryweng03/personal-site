@@ -35,10 +35,13 @@ const Education = () => {
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
                 <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">CS 106B: Programming Abstractions</p>
+                  <p className="text-xs sm:text-sm font-sfmono">CS 106B Programming Abstractions</p>
                 </div>
                 <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">ECON 50: Economic Analysis I</p>
+                  <p className="text-xs sm:text-sm font-sfmono">CS 103 Mathematical Foundations of Computing</p>
+                </div>
+                <div className="tag-outline-wrapper">
+                  <p className="text-xs sm:text-sm font-sfmono">CS 107 Computer Organization/Systems (Planned)</p>
                 </div>
               </div>
            </div>
