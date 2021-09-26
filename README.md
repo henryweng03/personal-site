@@ -1,2 +1,2 @@
 # Personal Site
-My personal website (henryweng.com) built with React and Tailwind CSS.
+My personal website (henryweng.com). Built with React and Tailwind CSS.
