@@ -26,7 +26,7 @@ const Experience = () => {
             <h3>Co-founder &amp; Chairman @ <a href="https://theyei.org/" className="link" target="_blank" rel="noreferrer">Youth Economics Initiative</a></h3>
             <p className="date">Mar 2019 - Present</p>
             <ul className="list-square pl-8 pt-3">
-              <li>Co-founded the largest coalition of economics clubs in the world (60+ clubs, 2500+ members, 45+ staff)</li>
+              <li>Co-founded the largest coalition of economics clubs in the world (70+ clubs, 3,000+ members, 45+ staff)</li>
               <li>Manage organization some of the largest international <a href="https://theyei.org/events" className="link" target="_blank" rel="noreferrer">economics competitions and events</a> with 1200+ attendees total</li>
               <li>Partnered with Bank of America to develop the <a href="https://theyei.org/programs/flip/" className="link" target="_blank" rel="noreferrer">FLIP program</a>, which provides free financial literacy education to underserved youth</li>
               <li>Assembled and work with an advisory board consisting of the Dean Emeritus of Columbia Business School, nonprofit directors, and economics professors</li>
