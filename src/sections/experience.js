@@ -16,11 +16,11 @@ const Experience = () => {
             <h3>Undergraduate Researcher @ <a href="https://www.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Stanford University</a></h3>
             <p className="date">Jun 2021 - Dec 2021</p>
             <ul className="list-square pl-8 pt-3">
-              <li>Advised by Professor David Mazières in the Secure Computer Systems group;
-                working on Karl, a home cloud platform enhancing the security
-                IoT devices</li>
-              <li>Developed node ranking algorithm to overhaul module rendering on the Karl UI web application</li>
+              <li>Contributed to the development of Karl, an open-source framework that allows users to control and measure their privacy on IoT devices</li>
+              <li>Implemented a node-ranking algorithm with TypeScript to revamp the tree rendering in the Karl UI web application</li>
+              <li>Developed a RAPPOR-based differential privacy module using Rust for private user data aggregation</li>
               <li>Built and deployed <a href="http://karl.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Karl website</a> on official stanford.edu domain</li>
+              <li>Advised by Professor David Mazières and Gina Yuan in the Secure Computer Systems group</li>
             </ul>
             <div id="yei" className="h-8"></div>
             <h3>Co-founder &amp; Chairman @ <a href="https://theyei.org/" className="link" target="_blank" rel="noreferrer">Youth Economics Initiative</a></h3>
