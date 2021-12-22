@@ -56,12 +56,11 @@ const Hero = () => {
                 <p>
                   I'm a student at Stanford University pursuing
                   a degree in computer science and economics. I'm currently
-                  working as an undergraduate researcher in the Stanford Secure
-                  Computer Systems group. I'm also the co-founder 
+                  working on a stealth social networking startup. I'm also the co-founder 
                   of the <a className="link" href="#yei">
                     Youth Economics Initiative
                     </a>,
-                  a network of economics clubs in 60+ schools serving over 2,500 students.
+                  a network of economics clubs in over 70 schools serving over 3,000 students.
                 </p>
               </div>
               <a href="mailto: hweng@stanford.edu">

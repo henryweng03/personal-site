@@ -3,6 +3,7 @@
     "languages": [
       "Java",
       "Python", 
+      "C++",
       "JavaScript",  
       "CSS", 
       "HTML"
@@ -10,6 +11,8 @@
     "technologies": [
       "React JS",
       "Firebase", 
+      "Pytorch",
+      "Tailwind CSS",
       "Selenium", 
       "NumPy",
       "Beautiful Soup", 

@@ -6,6 +6,7 @@ import Projects from "./sections/projects"
 import Education from "./sections/education";
 import Skills from "./sections/skills"
 import { Helmet } from "react-helmet";
+import React from "react";
 
 
 

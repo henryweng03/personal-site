@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="h-auto flex flex-col items-center sm:grid grid-cols-2">
       <div className="py-2 sm:py-6 sm:ml-6">
-        <p className = "font-sfmono text-xs lg:text-sm text-white">© 2021 HENRY WENG</p>
+        <p className = "font-sfmono text-xs lg:text-sm text-white">© 2022 HENRY WENG</p>
       </div>
       <div className = "flex justify-end items-center space-x-4">
         <a className="sm:py-6" href="mailto:hweng@stanford.edu">

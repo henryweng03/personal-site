@@ -14,7 +14,7 @@ const Experience = () => {
           </h2>
           <div className="col-start-2 mt-12 px-8 md:mt-0 col-end-2 md:pl-6 md:pr-16">
             <h3>Undergraduate Researcher @ <a href="https://www.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Stanford University</a></h3>
-            <p className="date">June 2021 - Present</p>
+            <p className="date">Jun 2021 - Dec 2021</p>
             <ul className="list-square pl-8 pt-3">
               <li>Advised by Professor David Mazières in the Secure Computer Systems group;
                 working on Karl, a home cloud platform enhancing the security
@@ -33,7 +33,7 @@ const Experience = () => {
             </ul>
             <div className="h-8"></div>
             <h3>Research Assistant @ <a href="https://bepp.wharton.upenn.edu/profile/smetters/" className="link" target="_blank" rel="noreferrer">The Wharton School</a></h3>
-            <p className="date">June 2020 - Sept 2020</p>
+            <p className="date">Jun 2020 - Sep 2020</p>
             <ul className="list-square pl-8 pt-3">
               <li>Worked under Boettner Chair Professor Kent Smetters; 
                 scraped and cleaned gigabytes of M&amp;A and insiders data from the 
@@ -44,7 +44,7 @@ const Experience = () => {
             </ul>
             <div className="h-8"></div>
             <h3>Student Leader Intern @ <a href= "https://about.bankofamerica.com/en/making-an-impact/student-leaders" className="link" target="_blank" rel="noreferrer">Bank of America</a></h3>
-            <p className="date">June 2020 - Sept 2020</p>
+            <p className="date">Jun 2020 - Sep 2020</p>
             <ul className="list-square pl-8 pt-3">
               <li>Launched aggregated database used by 200+ users to manage 
                 LifeMoves’s 13 homeless shelter branches</li>

@@ -23,10 +23,10 @@ const Education = () => {
                 </h3>
               </div>
               <div className = "flex justify-center md:block">
-                <p className="date">Exp. Graduation: June 2024</p>
+                <p className="date">Exp. Graduation: Jun 2024</p>
               </div>
               <div className = "flex justify-center md:block">
-                <p className="date">B.S. Computer Science + Economics</p>
+                <p className="date">B.S. Computer Science + Economics, GPA: 4.0</p>
               </div>
               <div className="h-4"></div>
               <div className = "flex justify-center md:block">
@@ -35,13 +35,16 @@ const Education = () => {
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
                 <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">CS 106B Programming Abstractions</p>
+                  <p className="text-xs sm:text-sm font-sfmono">CS106B Programming Abstractions</p>
                 </div>
                 <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">CS 103 Mathematical Foundations of Computing</p>
+                  <p className="text-xs sm:text-sm font-sfmono">CS103 Mathematical Foundations of Computing</p>
                 </div>
                 <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">CS 107 Computer Organization/Systems (Planned)</p>
+                  <p className="text-xs sm:text-sm font-sfmono">CS109 Probability for Computer Science</p>
+                </div>
+                <div className="tag-outline-wrapper">
+                  <p className="text-xs sm:text-sm font-sfmono">ECON136 Market Design</p>
                 </div>
               </div>
            </div>
