@@ -26,7 +26,7 @@ const Education = () => {
                 <p className="date">Exp. Graduation: Jun 2024</p>
               </div>
               <div className = "flex justify-center md:block">
-                <p className="date">B.S. Computer Science + Economics, GPA: 4.0</p>
+                <p className="date">B.S. Computer Science + Economics, GPA: 4.11</p>
               </div>
               <div className="h-4"></div>
               <div className = "flex justify-center md:block">
