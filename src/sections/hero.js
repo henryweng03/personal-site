@@ -56,7 +56,7 @@ const Hero = () => {
                 <p>
                   I'm a student at Stanford University pursuing
                   a degree in computer science and economics. I'm currently
-                  building <a className="link" href="https://pairology.me/">
+                  building <a className="link" href="https://www.pairology.me/">
                     Pairology
                     </a>, a matchmaker for menaingful friendships. I'm also the co-founder 
                   of the <a className="link" href="#yei">
