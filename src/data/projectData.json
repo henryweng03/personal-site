@@ -1,5 +1,19 @@
 [
   {
+    "projectName": "Satellite Income Mapping",
+    "techStack": [
+      "Python",
+      "Pytorch", 
+      "pandas", 
+      "Google Maps API"
+    ],
+    "description": 
+      "CNN computer vision model that predicts the geographic distribution of income given a satellite image. Corresponding paper was selected as the best report in Stanford's MLab"
+    ,
+    "imgSrc": "../images/satIncome.png",
+    "projectLink": "https://www.henryweng.com"
+  },
+  {
     "projectName": "Refood",
     "techStack": [
       "React JS",
@@ -11,7 +25,7 @@
       "HTML"
     ],
     "description": 
-      "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away"
+      "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away. Won best web application in a hackathon with 300+ participants"
     ,
     "imgSrc": "../images/refood.png",
     "projectLink": "https://github.com/henryweng03/refood/"

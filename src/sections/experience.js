@@ -14,26 +14,26 @@ const Experience = () => {
           </h2>
           <div className="col-start-2 mt-12 px-8 md:mt-0 col-end-2 md:pl-6 md:pr-16">
             <h3>Undergraduate Researcher @ <a href="https://www.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Stanford University</a></h3>
-            <p className="date">June 2021 - Present</p>
+            <p className="date">Jun 2021 - Dec 2021</p>
             <ul className="list-square pl-8 pt-3">
-              <li>Advised by Professor David Mazières in the Secure Computer Systems group;
-                working on Karl, a home cloud platform enhancing the security
-                IoT devices</li>
-              <li>Developed node ranking algorithm to overhaul module rendering on the Karl UI web application</li>
+              <li>Contributed to the development of Karl, an open-source framework that allows users to control and measure their privacy on IoT devices</li>
+              <li>Implemented a node-ranking algorithm with TypeScript to revamp the tree rendering in the Karl UI web application</li>
+              <li>Developed a RAPPOR-based differential privacy module using Rust for private user data aggregation</li>
               <li>Built and deployed <a href="http://karl.scs.stanford.edu/" className="link" target="_blank" rel="noreferrer">Karl website</a> on official stanford.edu domain</li>
+              <li>Advised by Professor David Mazières and Gina Yuan in the Secure Computer Systems group</li>
             </ul>
             <div id="yei" className="h-8"></div>
             <h3>Co-founder &amp; Chairman @ <a href="https://theyei.org/" className="link" target="_blank" rel="noreferrer">Youth Economics Initiative</a></h3>
             <p className="date">Mar 2019 - Present</p>
             <ul className="list-square pl-8 pt-3">
-              <li>Co-founded the largest coalition of economics clubs in the world (60+ clubs, 2500+ members, 45+ staff)</li>
+              <li>Co-founded the largest coalition of economics clubs in the world (70+ clubs, 3,000+ members, 45+ staff)</li>
               <li>Manage organization some of the largest international <a href="https://theyei.org/events" className="link" target="_blank" rel="noreferrer">economics competitions and events</a> with 1200+ attendees total</li>
               <li>Partnered with Bank of America to develop the <a href="https://theyei.org/programs/flip/" className="link" target="_blank" rel="noreferrer">FLIP program</a>, which provides free financial literacy education to underserved youth</li>
               <li>Assembled and work with an advisory board consisting of the Dean Emeritus of Columbia Business School, nonprofit directors, and economics professors</li>
             </ul>
             <div className="h-8"></div>
             <h3>Research Assistant @ <a href="https://bepp.wharton.upenn.edu/profile/smetters/" className="link" target="_blank" rel="noreferrer">The Wharton School</a></h3>
-            <p className="date">June 2020 - Sept 2020</p>
+            <p className="date">Jun 2020 - Sep 2020</p>
             <ul className="list-square pl-8 pt-3">
               <li>Worked under Boettner Chair Professor Kent Smetters; 
                 scraped and cleaned gigabytes of M&amp;A and insiders data from the 
@@ -44,7 +44,7 @@ const Experience = () => {
             </ul>
             <div className="h-8"></div>
             <h3>Student Leader Intern @ <a href= "https://about.bankofamerica.com/en/making-an-impact/student-leaders" className="link" target="_blank" rel="noreferrer">Bank of America</a></h3>
-            <p className="date">June 2020 - Sept 2020</p>
+            <p className="date">Jun 2020 - Sep 2020</p>
             <ul className="list-square pl-8 pt-3">
               <li>Launched aggregated database used by 200+ users to manage 
                 LifeMoves’s 13 homeless shelter branches</li>
