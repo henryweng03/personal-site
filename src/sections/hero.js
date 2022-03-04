@@ -58,7 +58,7 @@ const Hero = () => {
                   a degree in computer science and economics. I'm currently
                   building <a className="link" href="https://www.pairology.me/">
                     Pairology
-                    </a>, a matchmaker for menaingful friendships. I'm also the co-founder 
+                    </a>, a matchmaker for meaningful friendships. I'm also the co-founder 
                   of the <a className="link" href="#yei">
                     Youth Economics Initiative
                     </a>,
