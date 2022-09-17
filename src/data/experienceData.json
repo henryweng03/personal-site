@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Software Engineer Intern",
+    "companyName": "Dover (YC S19)",
+    "companyLink": "https://www.dover.com/",
+    "startDate": "Jun 2022",
+    "endDate": "Aug 2022",
+    "bullets": [
+      "Owned the advanced filtering & candidate insights product: interviewed key stakeholders, defined product vision, and partnered with designers and engineers to launch the product; 18% increase in monthly active users",
+      "Built API endpoints for data ingestion/enrichment of 100M candidate profiles using Django REST Framework",
+      "Developed automations for customer onboarding and candidate management flows using Slack’s Python API"
+    ]
+  },
+  {
+    "title": "Founder, Software Engineer",
+    "companyName": "Pairology",
+    "companyLink": "https://www.pairology.me/",
+    "startDate": "Jan 2022",
+    "endDate": "Jun 2022",
+    "bullets": [
+      "Built a matchmaker for meaningful friendships used by over 1000 students (Next.js, Tailwind CSS, and Firebase)",
+      "Led product from ideation to planning to release: conducted 50+ user interviews, set key performance metrics, defined product strategy, and planned weekly sprints",
+      "Developed novel compatibility prediction and matching algorithm that 10x’d Bumble BFF’s match-to-meetup ratio"
+    ]
+  },
+  {
+    "title": "Research Intern",
+    "companyName": "Stanford Future Data Systems Group",
+    "companyLink": "http://www.futuredata.io.s3-website-us-west-2.amazonaws.com/",
+    "startDate": "Jun 2021",
+    "endDate": "Dec 2021",
+    "bullets": [
+      "Contributed to Karl, an open-source framework for implementing differential privacy on IoT devices",
+      "Developed a RAPPOR-based differential privacy module using Rust for private user data aggregation",
+      "Implemented a node-ranking algorithm with TypeScript to revamp tree rendering in the Karl UI web application"
+    ]
+  },
+  {
+    "title": "Co-founder, Chairman",
+    "companyName": "Youth Economics Initiative",
+    "companyLink": "https://theyei.org/",
+    "startDate": "Mar 2019",
+    "endDate": "Present",
+    "bullets": [
+      "Founded and scaled the world’s largest network of economics clubs to 80+ schools and 4000+ members",
+      "Organized EconBowl, the premier student-run economics competition with over 1200+ total participants",
+      "Partnered with Bank of America to develop the FLIP program, which provides free financial literacy education to underserved youth"
+    ],
+    "tag": "yei"
+  }
+]

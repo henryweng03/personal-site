@@ -2,6 +2,33 @@ import React from "react";
 import "../index.css";
 import "./hero-background.css";
 
+const collegeCourses = [
+  "Data Structures & Algorithms",
+  "Computer Systems",
+  "Market Design",
+  "Design for Access",
+  "Complexity Theory",
+  "Probability for CS",
+  "Applied Matrix Theory",
+];
+
+const highSchoolCourses = [
+  "Discrete Math",
+  "Multiavariable Calculus",
+  "Linear Algebra",
+  "Differential Equations",
+  "AP Computer Science",
+  "AP Statistics",
+];
+
+const highSchoolAwards = [
+  "USA Computing Olympiad Gold",
+  "USA Physics Olympiad Semifinalist",
+  "Three-time Hackathon Winner",
+  "National Merit Scholar",
+  "Eagle Scout",
+];
+
 const Education = () => {
   return (
     <div className="h-auto bg-blue-dark">
@@ -37,7 +64,7 @@ const Education = () => {
               </div>
               <div className="flex justify-center md:block">
                 <p className="date">
-                  B.S. Computer Science + Economics, GPA: 4.11
+                  B.S. Computer Science + Economics, GPA: 4.09
                 </p>
               </div>
               <div className="h-4"></div>
@@ -46,26 +73,11 @@ const Education = () => {
               </div>
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    CS106B Programming Abstractions
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    CS103 Mathematical Foundations of Computing
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    CS109 Probability for Computer Science
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    ECON136 Market Design
-                  </p>
-                </div>
+                {collegeCourses.map((course) => (
+                  <div className="tag-outline-wrapper">
+                    <p className="text-xs sm:text-sm font-sfmono">{course}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -101,41 +113,11 @@ const Education = () => {
               </div>
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    Data Structures
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    Discrete Mathematics
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    Multivariable Calculus
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    Linear Algebra
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    Differential Equations
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    AP Computer Science
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    AP Statistics
-                  </p>
-                </div>
+                {highSchoolCourses.map((course) => (
+                  <div className="tag-outline-wrapper">
+                    <p className="text-xs sm:text-sm font-sfmono">{course}</p>
+                  </div>
+                ))}
               </div>
               <div className="h-4" />
               <div className="flex justify-center md:block">
@@ -143,29 +125,11 @@ const Education = () => {
               </div>
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    USA Computing Olympiad Gold
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    FBLA Nationals Winner in Economics
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    3x Hackathon Winner
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">
-                    USA Physics Olympiad Semifinalist
-                  </p>
-                </div>
-                <div className="tag-outline-wrapper">
-                  <p className="text-xs sm:text-sm font-sfmono">Eagle Scout</p>
-                </div>
+                {highSchoolAwards.map((award) => (
+                  <div className="tag-outline-wrapper">
+                    <p className="text-xs sm:text-sm font-sfmono">{award}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

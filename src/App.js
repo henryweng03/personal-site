@@ -20,7 +20,7 @@ function App() {
       <div id="experience">
         <Experience />
       </div>
-      <div className="h-12 md:h-24 lg:h-36 bg-blue-dark" />
+      <div className="h-4 md:h-16 lg:h-28 bg-blue-dark" />
 
       <div id="education">
         <Education />

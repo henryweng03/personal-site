@@ -53,17 +53,12 @@ const Hero = () => {
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
                   I'm a student at Stanford University pursuing a degree in
-                  computer science and economics. I'm currently building{" "}
-                  <a className="link" href="https://www.pairology.me/">
-                    Pairology
-                  </a>
-                  , a matchmaker for meaningful friendships. I'm also the
-                  co-founder of the{" "}
+                  computer science and economics. I'm the co-founder of the{" "}
                   <a className="link" href="#yei">
                     Youth Economics Initiative
                   </a>
-                  , a network of economics clubs in over 70 schools serving over
-                  3,000 students.
+                  , a network of economics clubs in over 80 schools serving over
+                  4,000 students.
                 </p>
               </div>
               <a href="mailto: hweng@stanford.edu">

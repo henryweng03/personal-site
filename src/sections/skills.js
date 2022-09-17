@@ -1,9 +1,20 @@
 import React from "react";
 import "../index.css";
-import SkillsList from "../components/skills-list";
 import skillData from "../data/skillData.json";
 
 const skills = skillData;
+
+const SkillsList = ({ skills }) => {
+  return (
+    <div className="flex flex-wrap justify-center md:justify-start">
+      {skills.map((tech) => (
+        <div className="tag-wrapper">
+          <p className="text-xs sm:text-sm font-sfmono">{tech}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const Skills = () => {
   return (
