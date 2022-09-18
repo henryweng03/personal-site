@@ -1,15 +1,8 @@
 [
   {
     "projectName": "Satellite Income Mapping",
-    "techStack": [
-      "Python",
-      "Pytorch", 
-      "pandas", 
-      "Google Maps API"
-    ],
-    "description": 
-      "CNN computer vision model that predicts the geographic distribution of income given a satellite image. Corresponding paper was selected as the best report in Stanford's MLab"
-    ,
+    "techStack": ["Python", "Pytorch", "pandas", "Google Maps API"],
+    "description": "CNN computer vision model that predicts the geographic distribution of income given a satellite image. Corresponding paper was selected as the best report in Stanford's MLab",
     "imgSrc": "../images/satIncome.png",
     "projectLink": "https://www.henryweng.com"
   },
@@ -17,16 +10,14 @@
     "projectName": "Refood",
     "techStack": [
       "React JS",
-      "Firebase", 
-      "Google Maps API", 
+      "Firebase",
+      "Google Maps API",
       "Cloud Firestore",
-      "JavaScript", 
-      "CSS", 
+      "JavaScript",
+      "CSS",
       "HTML"
     ],
-    "description": 
-      "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away. Won best web application in a hackathon with 300+ participants"
-    ,
+    "description": "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away. Won best web application in a hackathon with 300+ participants",
     "imgSrc": "../images/refood.png",
     "projectLink": "https://github.com/henryweng03/refood/"
   },
@@ -39,25 +30,15 @@
       "Material UI",
       "Google Cloud Vision"
     ],
-    "description": 
-      "Cross-platform mobile app that uses Google Cloud Vision's OCR to detect user-inputted allergens in food labels"
-    ,
+    "description": "Cross-platform mobile app that uses Google Cloud Vision's OCR to detect user-inputted allergens in food labels",
     "imgSrc": "../images/allerscan.png",
     "projectLink": "https://github.com/henryweng03/allergen-scan"
   },
   {
     "projectName": "Personal Website",
-    "techStack": [
-      "React JS",
-      "Tailwind CSS", 
-      "JavaScript", 
-      "CSS", 
-      "HTML"
-    ],
-    "description": 
-      "The website that you're visting right now — made with love, caffeine and React JS"
-    ,
-    "imgSrc": "../images/PersonalSite.png",
+    "techStack": ["React JS", "Tailwind CSS", "JavaScript", "CSS", "HTML"],
+    "description": "The website that you're visting right now — made with love, caffeine and React JS",
+    "imgSrc": "../images/personalSite.png",
     "projectLink": "https://github.com/henryweng03/personal-site"
   }
 ]
