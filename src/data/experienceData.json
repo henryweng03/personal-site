@@ -33,7 +33,8 @@
       "Contributed to Karl, an open-source framework for implementing differential privacy on IoT devices",
       "Developed a RAPPOR-based differential privacy module using Rust for private user data aggregation",
       "Implemented a node-ranking algorithm with TypeScript to revamp tree rendering in the Karl UI web application"
-    ]
+    ],
+    "tag": "yei"
   },
   {
     "title": "Co-founder, Chairman",
@@ -45,7 +46,6 @@
       "Founded and scaled the world’s largest network of economics clubs to 80+ schools and 4000+ members",
       "Organized EconBowl, the premier student-run economics competition with over 1200+ total participants",
       "Partnered with Bank of America to develop the FLIP program, which provides free financial literacy education to underserved youth"
-    ],
-    "tag": "yei"
+    ]
   }
 ]
