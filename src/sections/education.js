@@ -59,13 +59,11 @@ const Education = () => {
                   </a>
                 </h3>
               </div>
-              <div className="flex justify-center md:block">
+              <div className="flex justify-center text-center sm:text-left md:block">
                 <p className="date">Exp. Graduation: Jun 2024</p>
               </div>
-              <div className="flex justify-center md:block">
-                <p className="date">
-                  B.S. Computer Science + Economics, GPA: 4.09
-                </p>
+              <div className="flex justify-center text-center sm:text-left md:block">
+                <p className="date">B.S. Computer Science + Econ, GPA: 4.09</p>
               </div>
               <div className="h-4"></div>
               <div className="flex justify-center md:block">
@@ -75,7 +73,9 @@ const Education = () => {
               <div className="flex justify-center md:justify-start flex-wrap">
                 {collegeCourses.map((course) => (
                   <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-sfmono">{course}</p>
+                    <p className="text-center text-xs sm:text-sm font-sfmono">
+                      {course}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -115,7 +115,9 @@ const Education = () => {
               <div className="flex justify-center md:justify-start flex-wrap">
                 {highSchoolCourses.map((course) => (
                   <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-sfmono">{course}</p>
+                    <p className="text-center text-xs sm:text-sm font-sfmono">
+                      {course}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -127,7 +129,9 @@ const Education = () => {
               <div className="flex justify-center md:justify-start flex-wrap">
                 {highSchoolAwards.map((award) => (
                   <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-sfmono">{award}</p>
+                    <p className="text-center text-xs sm:text-sm font-sfmono">
+                      {award}
+                    </p>
                   </div>
                 ))}
               </div>

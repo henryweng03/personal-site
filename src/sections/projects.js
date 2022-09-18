@@ -26,7 +26,9 @@ const ProjectCard = ({
               <div className="flex flex-wrap mt-2">
                 {techStack.map((tech) => (
                   <div key={tech} className="tag-wrapper">
-                    <p className="text-xs sm:text-sm font-sfmono">{tech}</p>
+                    <p className="text-center text-xs sm:text-sm font-sfmono">
+                      {tech}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -50,7 +52,9 @@ const ProjectCard = ({
               <div className="flex flex-wrap mt-2">
                 {techStack.map((tech) => (
                   <div key={tech} className="tag-wrapper">
-                    <p className="text-xs sm:text-sm font-sfmono">{tech}</p>
+                    <p className="text-center text-xs sm:text-sm font-sfmono">
+                      {tech}
+                    </p>
                   </div>
                 ))}
               </div>
