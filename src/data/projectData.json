@@ -3,8 +3,7 @@
     "projectName": "Satellite Income Mapping",
     "techStack": ["Python", "Pytorch", "pandas", "Google Maps API"],
     "description": "CNN computer vision model that predicts the geographic distribution of income given a satellite image. Corresponding paper was selected as the best report in Stanford's MLab",
-    "imgSrc": "../images/satIncome.png",
-    "projectLink": "https://www.henryweng.com"
+    "imgSrc": "../images/satIncome.png"
   },
   {
     "projectName": "Refood",
