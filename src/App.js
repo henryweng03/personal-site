@@ -1,4 +1,4 @@
-import Experience from "./sections/experience";
+import Experiences from "./sections/experience";
 import Hero from "./sections/hero";
 import Header from "./sections/header";
 import Footer from "./sections/footer";
@@ -18,7 +18,7 @@ function App() {
       <Hero />
 
       <div id="experience">
-        <Experience />
+        <Experiences />
       </div>
       <div className="h-4 md:h-16 lg:h-28 bg-blue-dark" />
 
