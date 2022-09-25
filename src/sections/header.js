@@ -24,7 +24,7 @@ const Header = () => {
           <a href="#skills">
             <p className="nav-link mr-4">getSkills()</p>
           </a>
-          <a href="/downloads/henry_weng_resume.pdf" target="_blank">
+          <a href="/downloads/henry_resume.pdf" target="_blank">
             <button className="outline-button-sm">getResume()</button>
           </a>
         </div>
