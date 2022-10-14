@@ -7,6 +7,7 @@
     "endDate": "Aug 2022",
     "bullets": [
       "Owned the advanced filtering & candidate insights product: interviewed key stakeholders, defined product vision, and partnered with designers and engineers to launch the product; 18% increase in monthly active users",
+      "Led development of end-to-end interview scheduler customizations for onsite interviews",
       "Built API endpoints for data ingestion/enrichment of 100M candidate profiles using Django REST Framework",
       "Developed automations for customer onboarding and candidate management flows using Slack’s Python API"
     ]
