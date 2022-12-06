@@ -37,7 +37,8 @@ const Hero = () => {
                         "<b>solving problems.</b>",
                         "<b>learning new things.</b>",
                         "<b>meeting people.</b>",
-                        "<b>developing apps.</b>",
+                        "<b>thinking.</b>",
+                        "<b>exploring.</b>",
                         "<b>eating good food.</b>",
                       ],
                       autoStart: true,
@@ -53,7 +54,7 @@ const Hero = () => {
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
                   I'm studying computer science and market design at Stanford.
-                  Currently building some HR-tech stuff. I also co-founded the{" "}
+                  Currently building in HR-tech. I also co-founded the{" "}
                   <a className="link" href="#yei">
                     Youth Economics Initiative
                   </a>
