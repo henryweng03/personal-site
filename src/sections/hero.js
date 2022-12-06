@@ -35,10 +35,11 @@ const Hero = () => {
                       strings: [
                         "<b>making cool stuff.</b>",
                         "<b>solving problems.</b>",
+                        "<b>thinking hard.</b>",
                         "<b>learning new things.</b>",
                         "<b>meeting people.</b>",
-                        "<b>thinking.</b>",
                         "<b>exploring.</b>",
+                        "<b>developing apps.</b>",
                         "<b>eating good food.</b>",
                       ],
                       autoStart: true,
@@ -53,8 +54,8 @@ const Hero = () => {
               </div>
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
-                  I'm studying computer science and market design at Stanford.
-                  Currently building in HR-tech. I also co-founded the{" "}
+                  I'm a student at Stanford University pursuing a degree in
+                  computer science and economics. I'm the co-founder of the{" "}
                   <a className="link" href="#yei">
                     Youth Economics Initiative
                   </a>
