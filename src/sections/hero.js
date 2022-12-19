@@ -55,7 +55,8 @@ const Hero = () => {
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
                   I'm a student at Stanford University pursuing a degree in
-                  computer science and economics. I'm the co-founder of the{" "}
+                  computer science and economics. I'm currently building some
+                  stuff in HR-tech, and am a co-founder of the{" "}
                   <a className="link" href="#yei">
                     Youth Economics Initiative
                   </a>

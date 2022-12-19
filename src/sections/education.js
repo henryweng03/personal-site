@@ -3,9 +3,11 @@ import "../index.css";
 import "./hero-background.css";
 
 const collegeCourses = [
+  "Artificial Intelligence",
   "Data Structures & Algorithms",
-  "Computer Systems",
-  "Market Design",
+  "Computer Organization & Systems",
+  "Graduate Market Design",
+  "Auction Theory",
   "Design for Access",
   "Complexity Theory",
   "Probability for CS",
