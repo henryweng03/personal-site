@@ -1,13 +1,26 @@
 [
   {
+    "title": "Co-founder, Product & Engineering",
+    "companyName": "Hazel (PearX W23)",
+    "companyLink": "https://www.meethazel.ai/",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2023",
+    "bullets": [
+      "Built an AI-first workflow for realtors used by 3 of the top 50 realtors in California as a part of Pear VC’s early-stage accelerator",
+      "Led the company’s 0-to-1 journey: conducted 200+ user interviews, wrote 40K+ lines of code, and made our first two hires",
+      "Implemented early sales and customer discovery pipeline, closing over $250K ARR in letters of intent",
+      "Designed fundraising strategy and presented at Pear VC’s Demo Day, ultimately raising a $X million seed round"
+    ]
+  },
+  {
     "title": "Software Engineer Intern",
     "companyName": "Dover (YC S19)",
     "companyLink": "https://www.dover.com/",
     "startDate": "Jun 2022",
     "endDate": "Aug 2022",
     "bullets": [
-      "Owned the advanced filtering & candidate insights product: interviewed key stakeholders, defined product vision, and partnered with designers and engineers to launch the product; 18% increase in monthly active users",
-      "Led development of end-to-end interview scheduler customizations for onsite interviews",
+      "Owned advanced filtering/insights for the candidate application review page: defined vision, wrote PRD, and collaborated with PMs, designers, and eng to launch the product, resulting in 18% increase in MAU for the feature",
+      "Led development of a fully customizable onsite interview scheduling tool, synced with Google Calendar",
       "Built API endpoints for data ingestion/enrichment of 100M candidate profiles using Django REST Framework",
       "Developed automations for customer onboarding and candidate management flows using Slack’s Python API"
     ]
@@ -31,8 +44,7 @@
     "startDate": "Jun 2021",
     "endDate": "Dec 2021",
     "bullets": [
-      "Contributed to Karl, an open-source framework for implementing differential privacy on IoT devices",
-      "Developed a RAPPOR-based differential privacy module using Rust for private user data aggregation",
+      "Developed a RAPPOR-based differential privacy module for private user data aggregation on smart home devices",
       "Implemented a node-ranking algorithm with TypeScript to revamp tree rendering in the Karl UI web application"
     ],
     "tag": "yei"
