@@ -22,9 +22,7 @@ const Hero = () => {
         <div className="mx-auto max-w-6xl sm:pl-16 z-0">
           <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
             <div className="sm:col-span-10 md:col-span-9">
-              <h1 className="mx-6 sm:mx-0 hero-header">
-                Hey, my name is <b>Henry Weng.</b>
-              </h1>
+              <h1 className="mx-6 sm:mx-0 hero-header">I'm Henry.</h1>
 
               {/*this div creates flex tag, which is needed to put typewriter & text on same line*/}
               <div className="justify-center sm:justify-start flex hero-header">
@@ -33,13 +31,13 @@ const Hero = () => {
                   <Typewriter
                     options={{
                       strings: [
-                        "<b>solving problems.</b>",
-                        "<b>meeting people.</b>",
-                        "<b>exploring.</b>",
-                        "<b>thinking.</b>",
-                        "<b>building cool stuff.</b>",
-                        "<b>learning.</b>",
-                        "<b>eating good food.</b>",
+                        "solving problems.",
+                        "meeting people.",
+                        "exploring.",
+                        "thinking.",
+                        "building cool stuff.",
+                        "learning.",
+                        "eating good food.",
                       ],
                       autoStart: true,
                       loop: true,
