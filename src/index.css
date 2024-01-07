@@ -26,15 +26,15 @@ html {
 }
 
 .nav-link {
-  @apply font-sfmono hidden sm:text-xs lg:text-sm md:block transition duration-75 text-white hover:text-emerald-light;
+  @apply font-sfmono hidden sm:text-xs lg:text-sm md:block transition duration-75 text-white hover:text-secondary-light;
 }
 
 .link {
-  @apply transition duration-75 text-emerald-light hover:text-emerald-dark hover:bg-emerald-light;
+  @apply transition duration-75 text-secondary-light hover:text-secondary-dark hover:bg-secondary-light;
 }
 
 .footer-link {
-  @apply font-sfmono text-xs lg:text-sm transition duration-75 text-white hover:text-emerald-light;
+  @apply font-sfmono text-xs lg:text-sm transition duration-75 text-white hover:text-secondary-light;
 }
 
 .hero-header {
@@ -50,25 +50,25 @@ html {
 }
 
 .outline-button {
-  @apply text-sm transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-green
+  @apply text-sm transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent hover:shadow-green
   text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono;
 }
 
 .outline-button-sm {
-  @apply text-xs transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-green
+  @apply text-xs transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent hover:shadow-green
   text-white py-2 px-4 border border-white rounded-lg lg:text-sm font-sfmono;
 }
 
 .hover-border {
-  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-emerald-light hover:bg-emerald-light hover:bg-opacity-10 -mt-6 mb-0;
+  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-secondary-light hover:bg-secondary-light hover:bg-opacity-10 -mt-6 mb-0;
 }
 
 .tag-wrapper {
-  @apply py-0.5 px-2 rounded-md bg-emerald mr-2 mb-2;
+  @apply py-0.5 px-2 rounded-md bg-secondary mr-2 mb-2;
 }
 
 .tag-outline-wrapper {
-  @apply transform duration-150 py-0.5 px-2 rounded-md border border-emerald mr-2 mb-2;
+  @apply transform duration-150 py-0.5 px-2 rounded-md border border-secondary mr-2 mb-2;
 }
 
 @media only screen and (min-width: 768px) {
