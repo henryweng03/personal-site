@@ -50,17 +50,17 @@ html {
 }
 
 .outline-button {
-  @apply text-sm transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent hover:shadow-green
+  @apply text-sm transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent
   text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono;
 }
 
 .outline-button-sm {
-  @apply text-xs transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent hover:shadow-green
+  @apply text-xs transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent
   text-white py-2 px-4 border border-white rounded-lg lg:text-sm font-sfmono;
 }
 
 .hover-border {
-  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-secondary-light hover:bg-secondary-light hover:bg-opacity-10 -mt-6 mb-0;
+  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-secondary-light hover:bg-secondary-light hover:bg-opacity-20 -mt-6 mb-0;
 }
 
 .tag-wrapper {

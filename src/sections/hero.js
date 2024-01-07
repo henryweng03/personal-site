@@ -26,7 +26,7 @@ const Hero = () => {
 
               {/*this div creates flex tag, which is needed to put typewriter & text on same line*/}
               <div className="justify-center sm:justify-start flex hero-header">
-                <h2 className="hidden sm:block hero-header">I like&nbsp;</h2>
+                <h2 className="hidden sm:block hero-header">I enjoy&nbsp;</h2>
                 <h1 className="hidden sm:block hero-header">
                   <Typewriter
                     options={{
@@ -34,9 +34,8 @@ const Hero = () => {
                         "solving problems.",
                         "meeting people.",
                         "exploring.",
-                        "thinking.",
-                        "building cool stuff.",
-                        "learning.",
+                        "building useful things.",
+                        "learning for its own sake.",
                         "eating good food.",
                       ],
                       autoStart: true,

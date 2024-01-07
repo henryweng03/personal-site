@@ -34,7 +34,7 @@ const Experience = ({ props }) => {
 
 const Experiences = () => {
   return (
-    <div className="h-auto bg-blue-dark">
+    <div className="h-auto bg-primary-dark">
       <div className="mx-auto max-w-6xl md:pl-16 z-0">
         <div className="h-12" />
         <div className="experience-grid">
