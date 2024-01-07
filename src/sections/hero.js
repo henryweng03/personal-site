@@ -33,13 +33,12 @@ const Hero = () => {
                   <Typewriter
                     options={{
                       strings: [
-                        "<b>making cool stuff.</b>",
                         "<b>solving problems.</b>",
-                        "<b>thinking hard.</b>",
-                        "<b>learning new things.</b>",
                         "<b>meeting people.</b>",
                         "<b>exploring.</b>",
-                        "<b>developing apps.</b>",
+                        "<b>thinking.</b>",
+                        "<b>building cool stuff.</b>",
+                        "<b>learning.</b>",
                         "<b>eating good food.</b>",
                       ],
                       autoStart: true,
@@ -54,19 +53,26 @@ const Hero = () => {
               </div>
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
-                  I'm a student at Stanford University pursuing a degree in
-                  computer science and economics. I'm currently building some
-                  stuff in HR-tech, and am a co-founder of the{" "}
+                  I'm a student at Stanford studying computer science,
+                  economics, and statistics. Last year, I took a time off school
+                  to build{" "}
+                  <a className="link" href="https://meethazel.ai/">
+                    Hazel
+                  </a>{" "}
+                  <a className="link" href="https://pear.vc/pearx/">
+                    (PearX W23)
+                  </a>
+                  , an AI relationship manager for realtors. I'm also the
+                  founder and advisor for the{" "}
                   <a className="link" href="#yei">
                     Youth Economics Initiative
                   </a>
-                  , a network of economics clubs in over 80 schools serving over
-                  4,000 students.
+                  , a global network of economics clubs in over 90 high schools.
                 </p>
               </div>
               <a href="mailto: hweng@stanford.edu">
                 <button className="outline-button mt-6 sm:mt-14">
-                  Get in touch →
+                  Say hi →
                 </button>
               </a>
             </div>
