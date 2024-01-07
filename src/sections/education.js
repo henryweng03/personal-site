@@ -4,13 +4,15 @@ import "./hero-background.css";
 
 const collegeCourses = [
   "Artificial Intelligence",
+  "Machine Learning",
+  "Reinforcement Learning",
+  "Operating Systems",
+  "Entrepreneurial Marketing",
   "Data Structures & Algorithms",
-  "Computer Organization & Systems",
-  "Graduate Market Design",
+  "Computer Systems",
+  "Market Design",
   "Auction Theory",
-  "Design for Access",
-  "Complexity Theory",
-  "Probability for CS",
+  "Discrete Math",
   "Applied Matrix Theory",
 ];
 
@@ -62,10 +64,7 @@ const Education = () => {
                 </h3>
               </div>
               <div className="flex justify-center text-center sm:text-left md:block">
-                <p className="date">Exp. Graduation: Jun 2024</p>
-              </div>
-              <div className="flex justify-center text-center sm:text-left md:block">
-                <p className="date">B.S. Computer Science + Econ, GPA: 4.09</p>
+                <p className="date">B.S. Computer Science + Econ</p>
               </div>
               <div className="h-4"></div>
               <div className="flex justify-center md:block">
