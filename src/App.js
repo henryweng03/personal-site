@@ -10,7 +10,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className="bg-blue-dark">
+    <div className="bg-primary-dark">
       <Helmet>
         <title>Henry Weng</title>
       </Helmet>
@@ -20,17 +20,17 @@ function App() {
       <div id="experience">
         <Experiences />
       </div>
-      <div className="h-4 md:h-16 lg:h-28 bg-blue-dark" />
+      <div className="h-4 md:h-16 lg:h-28 bg-primary-dark" />
 
       <div id="education">
         <Education />
       </div>
-      <div className="h-12 md:h-24 lg:h-36 bg-blue-dark" />
+      <div className="h-12 md:h-24 lg:h-36 bg-primary-dark" />
 
       <div id="projects">
         <Projects />
       </div>
-      <div className="h-12 md:h-24 lg:h-36 bg-blue-dark" />
+      <div className="h-12 md:h-24 lg:h-36 bg-primary-dark" />
       {/* Hover outline is 6 */}
       <div className="-mt-6" />
       {/* Reverses the extra div in projects */}
@@ -39,7 +39,7 @@ function App() {
       <div id="skills">
         <Skills />
       </div>
-      <div className="h-24 md:h-36 lg:h-48 bg-blue-dark" />
+      <div className="h-24 md:h-36 lg:h-48 bg-primary-dark" />
 
       <Footer />
     </div>

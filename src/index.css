@@ -174,5 +174,5 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-blue;
+  @apply bg-primary;
 }
