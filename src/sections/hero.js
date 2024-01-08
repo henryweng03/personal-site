@@ -57,7 +57,7 @@ const Hero = () => {
               <div className="flex mt-3 mx-6 sm:mx-0">
                 <p>
                   {" "}
-                  Last year, I took a time off school to build{" "}
+                  I recently took a year off school to build{" "}
                   <a className="link" href="https://meethazel.ai/">
                     Hazel
                   </a>{" "}
