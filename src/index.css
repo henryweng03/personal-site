@@ -73,7 +73,7 @@ html {
 @media only screen and (min-width: 768px) {
   .project-grid {
     display: grid;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 4fr 3fr;
   }
 }
 
@@ -159,7 +159,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #7396d3;
+  background: rgba(115, 150, 211);
   border-radius: 100vh;
   border: 3px solid #edf2f7;
 }
