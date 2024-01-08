@@ -10,7 +10,7 @@ const Hero = () => {
           <img
             src="../images/henryOutline.png"
             alt="Line drawing of Henry Weng"
-            className="hidden lg:block absolute -right-3 xl:-right-6 -top-24 w-1/2 scale-75 xl:scale-100 opacity-20 z-0"
+            className="absolute -right-3 xl:-right-6 -top-36 md:-top-24 w-1/2 opacity-20 scale-150 sm:scale-95 z-0"
           />
           <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12 z-10">
             <div className="sm:col-span-10 md:col-span-9">

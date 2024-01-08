@@ -10,7 +10,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className="bg-primary-dark">
+    <div className="bg-primary-dark overflow-x-hidden">
       <Helmet>
         <title>Henry Weng</title>
       </Helmet>
