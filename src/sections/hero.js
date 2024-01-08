@@ -37,8 +37,8 @@ const Hero = () => {
               </div>
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
-                  I'm a student at Stanford studying computer science,
-                  economics, and statistics.
+                  I study computer science, economics, and statistics at
+                  Stanford.
                 </p>
               </div>
               <div className="flex mt-3 mx-6 sm:mx-0">

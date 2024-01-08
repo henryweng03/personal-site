@@ -1,43 +1,35 @@
 [
   {
-    "projectName": "Satellite Income Mapping",
-    "techStack": ["Python", "Pytorch", "pandas", "Google Maps API"],
-    "description": "CNN computer vision model that predicts the geographic distribution of income given a satellite image. Corresponding paper was selected as the best report in Stanford's MLab",
-    "imgSrc": "../images/satIncome.png"
-  },
-  {
-    "projectName": "Refood",
+    "projectName": "Polyjobs",
     "techStack": [
+      "Next.js",
       "React JS",
-      "Firebase",
-      "Google Maps API",
-      "Cloud Firestore",
-      "JavaScript",
-      "CSS",
-      "HTML"
+      "Tailwind CSS",
+      "Supabase",
+      "TypeScript"
     ],
-    "description": "Web app that allows grocers to sell slightly imperfect foods instead of throwing them away. Won best web application in a hackathon with 300+ participants",
-    "imgSrc": "../images/refood.png",
-    "projectLink": "https://github.com/henryweng03/refood/"
+    "description": "Created a platform to match startups with their best-fit SWE candidates. Scaled to 200+ candidates and $50K+ in contingency contracts within two months of launch",
+    "imgSrc": "../images/polyjobs-screenshot.png",
+    "projectLink": "https://www.polyjobs.ai"
   },
   {
-    "projectName": "AllerScan",
+    "projectName": "Deep RL for Venture Capital",
+    "techStack": ["Python", "OpenAI Gym", "Stable Baselines 3"],
+    "description": "Implemented PPO and DQN to train RL agents to make sequential decisions on whether a VC should meet with or invest in a company in a simulated environment. Achieved 75% of the theoretical maximum performance",
+    "imgSrc": "../images/ppo-screenshot.png",
+    "projectLink": "https://drive.google.com/file/d/1NQnD-79d6UyKCPEZnKWbujajH3KOQHe2/view?usp=sharing"
+  },
+  {
+    "projectName": "Pairology",
     "techStack": [
-      "Flutter",
+      "Next.js",
+      "React JS",
+      "Tailwind CSS",
       "Firebase",
-      "Dart",
-      "Material UI",
-      "Google Cloud Vision"
+      "TypeScript"
     ],
-    "description": "Cross-platform mobile app that uses Google Cloud Vision's OCR to detect user-inputted allergens in food labels",
-    "imgSrc": "../images/allerscan.png",
-    "projectLink": "https://github.com/henryweng03/allergen-scan"
-  },
-  {
-    "projectName": "Personal Website",
-    "techStack": ["React JS", "Tailwind CSS", "JavaScript", "CSS", "HTML"],
-    "description": "The website that you're visting right now — made with love, caffeine and React JS",
-    "imgSrc": "../images/personalSite.png",
-    "projectLink": "https://github.com/henryweng03/personal-site"
+    "description": "Built and scaled a matchmaker for meaningful friendships to 1,000+ users and 3,000+ in-person meet ups. Met 3 of my closest friends through the platform",
+    "imgSrc": "../images/pairology-screenshot.png",
+    "projectLink": "https://www.pairology.me"
   }
 ]

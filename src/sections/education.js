@@ -89,8 +89,8 @@ const Education = () => {
                 alt="Saratoga High"
               />
             </div>
-            <div className="mt-6 md:mt-0 md:pl-10 ">
-              <div className="flex justify-center md:block">
+            <div className="mt-6 md:mt-0 md:pl-10">
+              <div className="flex justify-center md:block ">
                 <h3>
                   <a
                     href="https://www.saratogahigh.org/"
