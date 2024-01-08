@@ -22,12 +22,12 @@ function App() {
           <Experiences />
         </div>
 
-        <div id="education">
-          <Education />
-        </div>
-
         <div id="projects">
           <Projects />
+        </div>
+
+        <div id="education">
+          <Education />
         </div>
 
         <div id="skills">
