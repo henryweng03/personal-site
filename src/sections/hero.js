@@ -5,8 +5,13 @@ import "./hero-background.css";
 const Hero = () => {
   return (
     <div>
-      <div className="relative h-screen bg-primary-dark flex items-center">
-        <div className="mx-auto max-w-6xl sm:pl-16 z-0">
+      <div className="h-screen flex items-center">
+        <div className="relative mx-auto max-w-6xl sm:pl-16 z-0">
+          <img
+            src="../images/henry_outline.png"
+            alt="Stanford Background"
+            className="hidden xl:block absolute -right-8 -top-24 w-1/2 scale-105 opacity-15 z-0"
+          />
           <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
             <div className="sm:col-span-10 md:col-span-9">
               <h1 className="mx-6 sm:mx-0 hero-header">I'm Henry.</h1>
