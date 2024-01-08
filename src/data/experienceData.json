@@ -26,18 +26,6 @@
     ]
   },
   {
-    "title": "Founder",
-    "companyName": "Pairology",
-    "companyLink": "https://www.pairology.me/",
-    "startDate": "Jan 2022",
-    "endDate": "Jun 2022",
-    "bullets": [
-      "Built a matchmaker for meaningful friendships used by over 1,000 students (Next.js, Tailwind CSS, and Firebase)",
-      "Led product from ideation to planning to release: conducted 50+ user interviews, set key performance metrics, defined product strategy, and planned weekly sprints",
-      "Developed novel compatibility prediction and matching algorithm that 10x’d Bumble BFF’s match-to-meetup ratio"
-    ]
-  },
-  {
     "title": "Research Intern",
     "companyName": "Stanford Future Data Systems Group",
     "companyLink": "http://www.futuredata.io.s3-website-us-west-2.amazonaws.com/",
@@ -56,7 +44,7 @@
     "startDate": "Mar 2019",
     "endDate": "Present",
     "bullets": [
-      "Founded and scaled the world’s largest network of economics clubs to 80+ schools and 4,000+ members",
+      "Founded and scaled the world’s largest network of economics clubs to 90+ schools and 4,000+ members",
       "Organized EconBowl, the premier student-run economics competition with over 1,200+ total participants",
       "Partnered with Bank of America to develop the FLIP program, which provides free financial literacy education to underserved youth"
     ]

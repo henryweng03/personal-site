@@ -32,7 +32,7 @@ const Hero = () => {
                       pauseFor: 1500,
                       cursor: "|",
                     }}
-                  ></Typewriter>
+                  />
                 </h1>
               </div>
               <div className="flex mt-6 mx-6 sm:mx-0">

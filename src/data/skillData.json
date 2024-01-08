@@ -1,23 +1,24 @@
 [
   {
     "languages": [
-      "Java",
-      "Python", 
+      "TypeScript",
+      "JavaScript",
+      "Python",
       "C++",
-      "JavaScript",  
-      "CSS", 
+      "Java",
+      "CSS",
       "HTML"
     ],
     "technologies": [
       "React JS",
-      "Firebase", 
+      "Next.js",
+      "Firebase",
       "Pytorch",
       "Tailwind CSS",
-      "Selenium", 
       "NumPy",
-      "Beautiful Soup", 
-      "statsmodels", 
-      "pandas"
+      "pandas",
+      "Figma",
+      "Large Language Models"
     ]
   }
 ]
