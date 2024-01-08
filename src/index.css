@@ -63,14 +63,6 @@ html {
   @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-secondary-light hover:bg-secondary-light hover:bg-opacity-20 -mt-6 mb-0;
 }
 
-.tag-wrapper {
-  @apply py-0.5 px-2 rounded-md bg-secondary bg-opacity-50 mr-2 mb-2;
-}
-
-.tag-outline-wrapper {
-  @apply transform duration-150 py-0.5 px-2 rounded-md border border-secondary mr-2 mb-2;
-}
-
 @media only screen and (min-width: 768px) {
   .experience-grid {
     display: grid;
