@@ -24,17 +24,20 @@ const Hero = () => {
                     options={{
                       strings: [
                         "solving problems.",
+                        "making things people love.",
+                        "learning for its own sake.",
                         "meeting people.",
                         "exploring.",
-                        "building useful things.",
-                        "learning for its own sake.",
+                        "pondering life.",
+                        "building relationships.",
+                        "novel experiences.",
                         "eating good food.",
                       ],
                       autoStart: true,
                       loop: true,
-                      delay: 50,
-                      deleteSpeed: 20,
-                      pauseFor: 1500,
+                      delay: 40,
+                      deleteSpeed: 18,
+                      pauseFor: 1700,
                       cursor: "|",
                     }}
                   />
