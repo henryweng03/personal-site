@@ -64,7 +64,7 @@ html {
 }
 
 .tag-wrapper {
-  @apply py-0.5 px-2 rounded-md bg-secondary mr-2 mb-2;
+  @apply py-0.5 px-2 rounded-md bg-secondary bg-opacity-50 mr-2 mb-2;
 }
 
 .tag-outline-wrapper {

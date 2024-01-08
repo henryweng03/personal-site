@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css";
 import "./hero-background.css";
+import Badge from "../components/Badge";
 
 const collegeCourses = [
   "Artificial Intelligence",
@@ -73,11 +74,7 @@ const Education = () => {
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
                 {collegeCourses.map((course) => (
-                  <div className="tag-outline-wrapper">
-                    <p className="text-center text-xs sm:text-sm font-sfmono">
-                      {course}
-                    </p>
-                  </div>
+                  <Badge text={course} />
                 ))}
               </div>
             </div>
@@ -115,11 +112,7 @@ const Education = () => {
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
                 {highSchoolCourses.map((course) => (
-                  <div className="tag-outline-wrapper">
-                    <p className="text-center text-xs sm:text-sm font-sfmono">
-                      {course}
-                    </p>
-                  </div>
+                  <Badge text={course} />
                 ))}
               </div>
               <div className="h-4" />
@@ -129,11 +122,7 @@ const Education = () => {
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
                 {highSchoolAwards.map((award) => (
-                  <div className="tag-outline-wrapper">
-                    <p className="text-center text-xs sm:text-sm font-sfmono">
-                      {award}
-                    </p>
-                  </div>
+                  <Badge text={award} />
                 ))}
               </div>
             </div>

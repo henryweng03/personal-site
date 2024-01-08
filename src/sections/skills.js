@@ -1,16 +1,15 @@
 import React from "react";
 import "../index.css";
 import skillData from "../data/skillData.json";
+import Badge from "../components/Badge";
 
 const skills = skillData;
 
 const SkillsList = ({ skills }) => {
   return (
     <div className="flex flex-wrap justify-center md:justify-start">
-      {skills.map((tech) => (
-        <div className="tag-wrapper">
-          <p className="text-center text-xs sm:text-sm font-sfmono">{tech}</p>
-        </div>
+      {skills.map((text) => (
+        <Badge text={text} />
       ))}
     </div>
   );

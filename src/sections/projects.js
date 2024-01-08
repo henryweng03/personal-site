@@ -2,6 +2,7 @@ import React from "react";
 import projectData from "../data/projectData.json";
 import "../index.css";
 import "./hero-background.css";
+import Badge from "../components/Badge";
 
 const projData = projectData;
 
@@ -23,12 +24,8 @@ const ProjectCard = ({
           <div className="col-start-2 sm:mt-0 col-end-2">
             <h3 className="text-xl sm:text-2xl">{projectName}</h3>
             <div className="flex flex-wrap mt-2">
-              {techStack.map((tech) => (
-                <div key={tech} className="tag-wrapper">
-                  <p className="text-center text-xs sm:text-sm font-sfmono">
-                    {tech}
-                  </p>
-                </div>
+              {techStack.map((text) => (
+                <Badge text={text} />
               ))}
             </div>
             <p className="text-gray-300">{description}</p>

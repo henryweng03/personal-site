@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="h-auto flex flex-col items-center sm:grid grid-cols-2">
       <div className="py-2 sm:py-6 sm:ml-6">
         <p className="font-sfmono text-xs lg:text-sm text-white">
-          © 2022 HENRY WENG
+          © 2024 HENRY WENG
         </p>
       </div>
       <div className="flex justify-end items-center space-x-4">
