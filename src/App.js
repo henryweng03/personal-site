@@ -17,28 +17,24 @@ function App() {
       <Header />
       <Hero />
 
-      <div id="experience">
-        <Experiences />
-      </div>
-      <div className="h-4 md:h-16 lg:h-28 bg-primary-dark" />
+      <div className="flex flex-col space-y-32">
+        <div id="experience">
+          <Experiences />
+        </div>
 
-      <div id="education">
-        <Education />
-      </div>
-      <div className="h-12 md:h-24 lg:h-36 bg-primary-dark" />
+        <div id="education">
+          <Education />
+        </div>
 
-      <div id="projects">
-        <Projects />
-      </div>
-      <div className="h-12 md:h-24 lg:h-36 bg-primary-dark" />
-      {/* Hover outline is 6 */}
-      <div className="-mt-6" />
-      {/* Reverses the extra div in projects */}
-      <div className="-mt-12" />
+        <div id="projects">
+          <Projects />
+        </div>
 
-      <div id="skills">
-        <Skills />
+        <div id="skills">
+          <Skills />
+        </div>
       </div>
+
       <div className="h-24 md:h-36 lg:h-48 bg-primary-dark" />
 
       <Footer />

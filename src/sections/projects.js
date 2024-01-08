@@ -8,13 +8,12 @@ const projData = projectData;
 
 const Projects = () => {
   return (
-    <div className="h-auto bg-primary-dark">
+    <div className="h-auto">
       <div className="mx-auto max-w-6xl sm:pl-16 z-0">
-        <div className="h-12"></div>
         <h2 className="text-center sm:text-left section-header">
           {">"} getProjects()
         </h2>
-        <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
+        <div className="px-8 sm:pr-16 sm:pl-0 mt-12 space-y-12">
           {projData.map((data) => (
             <div>
               <ProjectCard
@@ -24,7 +23,6 @@ const Projects = () => {
                 imgSrc={data.imgSrc}
                 projectLink={data.projectLink}
               />
-              <div className="h-12"></div>
             </div>
           ))}
         </div>

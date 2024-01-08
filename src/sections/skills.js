@@ -17,9 +17,8 @@ const SkillsList = ({ skills }) => {
 
 const Skills = () => {
   return (
-    <div className="h-auto bg-primary-dark">
+    <div className="h-auto">
       <div className="mx-auto max-w-6xl md:pl-16 z-0">
-        <div className="h-12" />
         <div className="skills-grid">
           <h2 className="text-center md:text-left section-header">
             {">"} getSkills()
