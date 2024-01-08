@@ -8,13 +8,13 @@ const Hero = () => {
       <div className="h-screen flex items-center">
         <div className="relative mx-auto max-w-6xl sm:pl-16 z-0">
           <img
-            src="../images/henry_outline.png"
-            alt="Stanford Background"
-            className="hidden xl:block absolute -right-8 -top-24 w-1/2 scale-105 opacity-15 z-0"
+            src="../images/henryOutline.png"
+            alt="Line drawing of Henry Weng"
+            className="hidden lg:block absolute -right-3 xl:-right-8 -top-36 w-1/2 scale-75 xl:scale-105 opacity-20 z-0"
           />
           <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
             <div className="sm:col-span-10 md:col-span-9">
-              <h1 className="mx-6 sm:mx-0 hero-header">I'm Henry.</h1>
+              <h1 className="mx-6 sm:mx-0 hero-header">Hey! I'm Henry.</h1>
 
               {/*this div creates flex tag, which is needed to put typewriter & text on same line*/}
               <div className="justify-center sm:justify-start flex hero-header">
