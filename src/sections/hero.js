@@ -5,20 +5,7 @@ import "./hero-background.css";
 const Hero = () => {
   return (
     <div>
-      <div className="relative h-screen hero-background flex items-center">
-        <ul class="circles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+      <div className="relative h-screen bg-primary-dark flex items-center">
         <div className="mx-auto max-w-6xl sm:pl-16 z-0">
           <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
             <div className="sm:col-span-10 md:col-span-9">
