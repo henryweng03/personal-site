@@ -12,8 +12,8 @@ const Hero = () => {
             alt="Line drawing of Henry Weng"
             className="absolute -right-3 xl:-right-6 -top-36 md:-top-24 w-1/2 opacity-20 scale-150 sm:scale-95 z-0"
           />
-          <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12 z-10">
-            <div className="sm:col-span-10 md:col-span-9">
+          <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
+            <div className="sm:col-span-10 md:col-span-9 z-10">
               <h1 className="mx-6 sm:mx-0 hero-header">Hey! I'm Henry.</h1>
 
               {/*this div creates flex tag, which is needed to put typewriter & text on same line*/}
