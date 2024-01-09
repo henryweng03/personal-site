@@ -6,7 +6,8 @@
       "React JS",
       "Tailwind CSS",
       "Supabase",
-      "TypeScript"
+      "TypeScript",
+      "GPT-4"
     ],
     "description": "Created a platform to match startups with their best-fit SWE candidates. Scaled to 200+ candidates and $50K+ in contingency contracts within two months of launch",
     "imgSrc": "../images/polyjobs-screenshot.png",
@@ -14,7 +15,7 @@
   },
   {
     "projectName": "Deep RL for Venture Capital",
-    "techStack": ["Python", "OpenAI Gym", "Stable Baselines 3"],
+    "techStack": ["Python", "OpenAI Gym", "Stable Baselines3", "TensorFlow"],
     "description": "Implemented PPO and DQN to train RL agents to make sequential decisions on whether a VC should meet with or invest in a company in a simulated environment. Achieved 75% of the theoretical maximum performance",
     "imgSrc": "../images/ppo-screenshot.png",
     "projectLink": "https://drive.google.com/file/d/1NQnD-79d6UyKCPEZnKWbujajH3KOQHe2/view?usp=sharing"
