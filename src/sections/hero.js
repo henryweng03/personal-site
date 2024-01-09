@@ -18,38 +18,9 @@ const Hero = () => {
             {/* Header & subheader */}
             <div className="sm:col-span-11 lg:col-span-7 z-10">
               <h1 className="mx-6 sm:mx-0 hero-header">Hey! I'm Henry.</h1>
-            </div>
-
-            <div className="col-span-11 z-10">
-              <div className="justify-center sm:justify-start flex hero-header">
-                <h2 className="hidden sm:block hero-header">I enjoy&nbsp;</h2>
-                <h1 className="hidden sm:block hero-header">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        "solving problems.",
-                        "making things people love.",
-                        "learning for its own sake.",
-                        "meeting people.",
-                        "exploring.",
-                        "pondering life.",
-                        "adventure.",
-                        "eating good food.",
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      delay: 40,
-                      deleteSpeed: 18,
-                      pauseFor: 1700,
-                      cursor: "|",
-                    }}
-                  />
-                </h1>
-              </div>
-            </div>
-
-            {/* Pargraph */}
-            <div className="col-span-11 lg:col-span-7 z-10">
+              <h1 className="mx-6 sm:mx-0 hero-header mt-2">
+                I build beautiful and useful things.
+              </h1>
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
                   I study computer science, economics, and statistics at
@@ -76,8 +47,8 @@ const Hero = () => {
                   >
                     (PearX W23)
                   </a>
-                  , an AI relationship manager for realtors. I'm also the
-                  founder and advisor for the{" "}
+                  , an AI workflow for realtors. I'm also the founder and
+                  advisor for the{" "}
                   <a
                     className="link"
                     href="https://theyei.org"
@@ -87,10 +58,15 @@ const Hero = () => {
                     Youth Economics Initiative
                   </a>
                   , a global network of economics clubs in over 90 high schools.
-                  I'm currently building an AI journal for human flourishing.
                 </p>
               </div>
-              <div className="mt-6 sm:mt-14 space-x-4 flex justify-center sm:justify-start">
+              <div className="flex mt-3 mx-6 sm:mx-0">
+                <p>
+                  These days, I'm working on an AI-enabled journal for human
+                  flourishing.
+                </p>
+              </div>
+              <div className="mt-6 sm:mt-12 space-x-4 flex justify-center sm:justify-start">
                 <a className="button" href="mailto: hweng@stanford.edu">
                   Say hello! →
                 </a>
