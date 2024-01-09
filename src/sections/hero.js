@@ -1,6 +1,8 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./hero-background.css";
+import { FiMail } from "react-icons/fi";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -44,7 +46,6 @@ const Hero = () => {
                   />
                 </h1>
               </div>
-              <div className="justify-center sm:justify-start flex hero-header"></div>
             </div>
 
             {/* Pargraph */}
@@ -89,9 +90,52 @@ const Hero = () => {
                   I'm currently building an AI journal for human flourishing.
                 </p>
               </div>
-              <a href="mailto: hweng@stanford.edu">
-                <button className="button mt-6 sm:mt-14">Say hello! →</button>
-              </a>
+              <div className="mt-6 sm:mt-14 space-x-4 flex justify-center sm:justify-start">
+                <a className="button" href="mailto: hweng@stanford.edu">
+                  Say hello! →
+                </a>
+              </div>
+              <div className="mt-4 sm:mt-6 space-x-4 flex justify-center sm:justify-start">
+                <a
+                  href="https://linkedin.com/in/henry-weng"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedin
+                    size={28}
+                    className="hidden sm:block text-secondary-light hover:text-white duration-150 opacity-40 hover:opacity-80"
+                  />
+                  <FaLinkedin
+                    size={24}
+                    className="block sm:hidden text-secondary-light hover:text-white duration-150 opacity-40 hover:opacity-80"
+                  />
+                </a>
+                <a
+                  href="https://github.com/henryweng03"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub
+                    size={28}
+                    className="hidden sm:block text-secondary-light hover:text-white duration-150 opacity-40 hover:opacity-80"
+                  />
+                  <FaGithub
+                    size={24}
+                    className="block sm:hidden text-secondary-light hover:text-white duration-150 opacity-40 hover:opacity-80"
+                  />
+                </a>
+                <a href="mailto: hweng@stanford.edu">
+                  <FiMail
+                    size={28}
+                    className="hidden sm:block text-secondary-light hover:text-white duration-150 opacity-40 hover:opacity-80"
+                  />
+                  <FiMail
+                    size={24}
+                    className="block sm:hidden text-secondary-light hover:text-white duration-150 opacity-40 hover:opacity-80"
+                  />
+                </a>
+              </div>
+              <div className="justify-center sm:justify-start flex  mt-6"></div>
             </div>
           </div>
         </div>

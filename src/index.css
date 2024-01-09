@@ -59,6 +59,11 @@ html {
   text-white py-2 px-4  rounded-lg sm:text-sm font-sfmono shadow-[inset_0px_1px_2px_0px_rgba(148,163,184,0.5)];
 }
 
+.button-icon {
+  @apply text-sm transition duration-150 ease-in-out hover:bg-secondary hover:ring-transparent bg-secondary-light bg-opacity-30 hover:bg-opacity-100
+  text-white p-3 rounded-lg sm:text-lg font-sfmono shadow-[inset_0px_0.5px_1px_0px_rgba(148,163,184,0.5)];
+}
+
 .hover-border {
   @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-secondary-light hover:bg-secondary-light hover:bg-opacity-20 -mt-6 mb-0;
 }
