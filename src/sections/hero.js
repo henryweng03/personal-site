@@ -52,15 +52,30 @@ const Hero = () => {
                 <p>
                   {" "}
                   I recently took a year off school to build{" "}
-                  <a className="link" href="https://meethazel.ai/">
+                  <a
+                    className="link"
+                    href="https://meethazel.ai/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Hazel
                   </a>{" "}
-                  <a className="link" href="https://pear.vc/pearx/">
+                  <a
+                    className="link"
+                    href="https://pear.vc/pearx/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     (PearX W23)
                   </a>
                   , an AI relationship manager for realtors. I'm also the
                   founder and advisor for the{" "}
-                  <a className="link" href="#yei">
+                  <a
+                    className="link"
+                    href="https://theyei.org"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Youth Economics Initiative
                   </a>
                   , a global network of economics clubs in over 90 high schools.
@@ -68,9 +83,7 @@ const Hero = () => {
                 </p>
               </div>
               <a href="mailto: hweng@stanford.edu">
-                <button className="outline-button mt-6 sm:mt-14">
-                  Say hello! →
-                </button>
+                <button className="button mt-6 sm:mt-14">Say hello! →</button>
               </a>
             </div>
           </div>

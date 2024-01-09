@@ -49,14 +49,14 @@ html {
   @apply font-sfmono text-sm text-gray-300 sm:text-base;
 }
 
-.outline-button {
-  @apply text-sm transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent
-  text-white py-3 px-6 border border-white rounded-lg sm:text-lg font-sfmono;
+.button {
+  @apply text-sm transition duration-150 ease-in-out hover:bg-secondary hover:ring-transparent bg-secondary-light bg-opacity-20 hover:bg-opacity-100
+  text-white py-3 px-6 rounded-lg sm:text-lg font-sfmono shadow-[inset_0px_1.5px_3px_0px_rgba(148,163,184,0.5)];
 }
 
-.outline-button-sm {
-  @apply text-xs transition duration-300 ease-in-out hover:bg-secondary hover:border-transparent
-  text-white py-2 px-4 border border-white rounded-lg lg:text-sm font-sfmono;
+.button-sm {
+  @apply text-xs transition duration-150 ease-in-out hover:bg-secondary hover:ring-transparent bg-secondary-light bg-opacity-20
+  text-white py-2 px-4  rounded-lg sm:text-sm font-sfmono shadow-[inset_0px_1px_2px_0px_rgba(148,163,184,0.5)];
 }
 
 .hover-border {
