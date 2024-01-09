@@ -10,13 +10,15 @@ const Hero = () => {
           <img
             src="../images/henryOutline.png"
             alt="Line drawing of Henry Weng"
-            className="absolute -right-3 xl:-right-6 -top-36 md:-top-24 w-1/2 opacity-20 scale-150 sm:scale-95 z-0"
+            className="hidden lg:block absolute -right-3 xl:-right-6 -top-36 md:-top-24 w-1/2 opacity-20 scale-95 z-0"
           />
-          <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
-            <div className="sm:col-span-10 md:col-span-9 z-10">
+          <div className="flex flex-col justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
+            {/* Header & subheader */}
+            <div className="sm:col-span-11 lg:col-span-7 z-10">
               <h1 className="mx-6 sm:mx-0 hero-header">Hey! I'm Henry.</h1>
+            </div>
 
-              {/*this div creates flex tag, which is needed to put typewriter & text on same line*/}
+            <div className="col-span-11 z-10">
               <div className="justify-center sm:justify-start flex hero-header">
                 <h2 className="hidden sm:block hero-header">I enjoy&nbsp;</h2>
                 <h1 className="hidden sm:block hero-header">
@@ -42,6 +44,11 @@ const Hero = () => {
                   />
                 </h1>
               </div>
+              <div className="justify-center sm:justify-start flex hero-header"></div>
+            </div>
+
+            {/* Pargraph */}
+            <div className="col-span-11 lg:col-span-7 z-10">
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
                   I study computer science, economics, and statistics at
