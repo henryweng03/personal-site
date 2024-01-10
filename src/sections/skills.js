@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import skillData from "../data/skillData.json";
-import Badge from "../components/Badge";
+import BadgeList from "../components/BadgeList";
 
 const skills = skillData;
 
@@ -27,18 +27,14 @@ const Skills = () => {
             <div>
               <h3 className="text-center md:text-left">Languages</h3>
               <div className="h-3"></div>
-              {skills.map((skill) => (
-                <SkillsList skills={skill.languages} />
-              ))}
+              <BadgeList badges={skills.languages} />
             </div>
           </div>
           <div className="col-start-3 mt-12 px-8 md:mt-0 col-end-3 md:pl-0 md:pr-16">
             <div>
               <h3 className="text-center md:text-left">Technologies</h3>
               <div className="h-3"></div>
-              {skills.map((skill) => (
-                <SkillsList skills={skill.technologies} />
-              ))}
+              <BadgeList badges={skills.technologies} />
             </div>
           </div>
         </div>

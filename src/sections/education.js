@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import "./hero-background.css";
-import Badge from "../components/Badge";
+import BadgeList from "../components/BadgeList";
 
 const collegeCourses = [
   "Artificial Intelligence",
@@ -72,11 +72,7 @@ const Education = () => {
                 <p>Relevant Coursework</p>
               </div>
               <div className="h-2"></div>
-              <div className="flex justify-center md:justify-start flex-wrap">
-                {collegeCourses.map((course) => (
-                  <Badge text={course} />
-                ))}
-              </div>
+              <BadgeList badges={collegeCourses} />
             </div>
           </div>
           <div className="h-16"></div>
@@ -110,21 +106,13 @@ const Education = () => {
                 <p>Relevant Coursework</p>
               </div>
               <div className="h-2"></div>
-              <div className="flex justify-center md:justify-start flex-wrap">
-                {highSchoolCourses.map((course) => (
-                  <Badge text={course} />
-                ))}
-              </div>
+              <BadgeList badges={highSchoolCourses} />
               <div className="h-4" />
               <div className="flex justify-center md:block">
                 <p>Awards &amp; Distinctions</p>
               </div>
               <div className="h-2"></div>
-              <div className="flex justify-center md:justify-start flex-wrap">
-                {highSchoolAwards.map((award) => (
-                  <Badge text={award} />
-                ))}
-              </div>
+              <BadgeList badges={highSchoolAwards} />
             </div>
           </div>
         </div>

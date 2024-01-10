@@ -1,24 +1,22 @@
-[
-  {
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "C++",
-      "Java",
-      "CSS",
-      "HTML"
-    ],
-    "technologies": [
-      "React JS",
-      "Next.js",
-      "Firebase",
-      "Pytorch",
-      "Tailwind CSS",
-      "NumPy",
-      "pandas",
-      "Figma",
-      "Large Language Models"
-    ]
-  }
-]
+{
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "C++",
+    "Java",
+    "CSS",
+    "HTML"
+  ],
+  "technologies": [
+    "React JS",
+    "Next.js",
+    "Firebase",
+    "Pytorch",
+    "Tailwind CSS",
+    "NumPy",
+    "pandas",
+    "Figma",
+    "Large Language Models"
+  ]
+}
