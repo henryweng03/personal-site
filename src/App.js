@@ -7,7 +7,7 @@ import Education from "./sections/education";
 import Skills from "./sections/skills";
 import { Helmet } from "react-helmet";
 import React from "react";
-import { inject } from "@vercel/gatsby-plugin-vercel-analytics";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -39,10 +39,9 @@ function App() {
       <div className="h-24 md:h-36 lg:h-48 bg-primary-dark" />
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
-
-inject();
 
 export default App;
