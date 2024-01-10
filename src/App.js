@@ -7,6 +7,10 @@ import Education from "./sections/education";
 import Skills from "./sections/skills";
 import { Helmet } from "react-helmet";
 import React from "react";
+import ReactGA from "react-ga";
+
+ReactGA.initialize(process.env.GOOGLE_ANALYTICS_CODE);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
