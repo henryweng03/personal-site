@@ -17,10 +17,12 @@ const Hero = () => {
           <div className="flex flex-col justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
             {/* Header & subheader */}
             <div className="sm:col-span-11 lg:col-span-7 z-10">
-              <h1 className="mx-6 sm:mx-0 hero-header">Hey! I'm Henry.</h1>
-              <h1 className="mx-6 sm:mx-0 hero-header mt-2">
-                I build beautiful and useful things.
-              </h1>
+              <h1 className="mx-6 sm:mx-0 hero-header">Hi, I'm Henry.</h1>
+              <div className="mt-2">
+                <h1 className="mx-6 sm:mx-0 hero-header">
+                  I build delightful, useful things.
+                </h1>
+              </div>
               <div className="flex mt-6 mx-6 sm:mx-0">
                 <p>
                   I study computer science, economics, and statistics at
