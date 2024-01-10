@@ -7,10 +7,7 @@ import Education from "./sections/education";
 import Skills from "./sections/skills";
 import { Helmet } from "react-helmet";
 import React from "react";
-import ReactGA from "react-ga";
-
-ReactGA.initialize(process.env.GOOGLE_ANALYTICS_CODE);
-ReactGA.pageview(window.location.pathname + window.location.search);
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -38,6 +35,7 @@ function App() {
           <Skills />
         </div>
       </div>
+      <Analytics />
 
       <div className="h-24 md:h-36 lg:h-48 bg-primary-dark" />
 
