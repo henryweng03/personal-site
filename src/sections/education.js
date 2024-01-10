@@ -63,11 +63,12 @@ const Education = () => {
                   </a>
                 </h3>
               </div>
-              <div className="flex justify-center text-center sm:text-left md:block">
+              <div className="flex-col flex items-center md:items-start text-center">
                 <p className="date">B.S. Computer Science + Econ</p>
+                <p className="date">GPA: 4.0+</p>
               </div>
               <div className="h-4"></div>
-              <div className="flex justify-center md:block">
+              <div className="flex-col flex items-center md:items-start text-center">
                 <p>Relevant Coursework</p>
               </div>
               <div className="h-2"></div>
@@ -101,11 +102,11 @@ const Education = () => {
                   </a>
                 </h3>
               </div>
-              <div className="flex justify-center md:block">
+              <div className="flex-col flex items-center md:items-start text-center">
                 <p className="date">GPA: 4.0, SAT: 1600</p>
               </div>
               <div className="h-4" />
-              <div className="flex justify-center md:block">
+              <div className="flex-col flex items-center md:items-start text-center">
                 <p>Relevant Coursework</p>
               </div>
               <div className="h-2"></div>
