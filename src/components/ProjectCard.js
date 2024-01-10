@@ -1,5 +1,5 @@
-import Badge from "../components/Badge";
 import React from "react";
+import BadgeList from "./BadgeList";
 
 const ProjectCard = ({
   projectName,
@@ -23,11 +23,8 @@ const ProjectCard = ({
           </div>
           <div className="col-start-2 sm:mt-0 col-end-2">
             <h3 className="text-xl sm:text-2xl">{projectName}</h3>
-            <div className="flex flex-wrap mt-2">
-              {techStack.map((text) => (
-                <Badge text={text} />
-              ))}
-            </div>
+            <div className="h-2" />
+            <BadgeList badges={techStack} responsiveCentering={false} />
             <p className="text-gray-30 mt-2">{description}</p>
           </div>
         </div>
