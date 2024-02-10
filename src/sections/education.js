@@ -4,6 +4,8 @@ import "./hero-background.css";
 import BadgeList from "../components/BadgeList";
 
 const collegeCourses = [
+  "NLP with Deep Learning",
+  "Interactive & Embodied Learning",
   "Artificial Intelligence",
   "Machine Learning",
   "Reinforcement Learning",
