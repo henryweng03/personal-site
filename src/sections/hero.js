@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="flex mt-3 mx-6 sm:mx-0">
               <p>
                 {" "}
-                I recently took a year off school to build{" "}
+                I recently took a gap year from school to build{" "}
                 <a
                   className="link"
                   href="https://meethazel.ai/"
