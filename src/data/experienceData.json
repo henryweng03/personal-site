@@ -6,10 +6,10 @@
     "startDate": "Oct 2022",
     "endDate": "Sep 2023",
     "bullets": [
-      "Built an AI-first workflow for realtors used by 3 of the top 50 realtors in California as a part of Pear VC’s early-stage accelerator",
-      "Led the company’s 0-to-1 journey: conducted 200+ user interviews, wrote 40K+ lines of code, and made our first two hires",
-      "Implemented early sales and customer discovery pipeline, closing over $250K ARR in letters of intent",
-      "Designed fundraising strategy and presented at Pear VC’s Demo Day, ultimately raising a $X million seed round"
+      "Took a gap year to build an AI operating system for realtors (think Siri for realtors)",
+      "Worked cross-functionally to scope, build, and ship critical features like hold-to-talk, talk-to-your-CRM, and automated to-do lists: conducted user interviews for 200+ realtors and wrote 40K+ lines of code",
+      "Conducted early sales and product marketing, helping close over $250,000 annual recurring revenue in letters of intent",
+      "Pitched to 2,000 investors at Pear VC’s W23 demo day, kickstarting an oversubscribed $X million fundraise"
     ]
   },
   {
@@ -19,23 +19,21 @@
     "startDate": "Jun 2022",
     "endDate": "Aug 2022",
     "bullets": [
-      "Owned advanced filtering/insights for the candidate application review page: defined vision, wrote PRD, and collaborated with PMs, designers, and eng to launch the product, resulting in 18% increase in MAU for the feature",
+      "Owned AI insights for the resume review page: scoped feature, wrote PRD, and collaborated cross-functionally with EPD to launch the feature, resulting in 18% increase in MAU for the feature",
       "Led development of a fully customizable onsite interview scheduling tool, synced with Google Calendar",
-      "Built API endpoints for data ingestion/enrichment of 100M candidate profiles using Django REST Framework",
-      "Developed automations for customer onboarding and candidate management flows using Slack’s Python API"
+      "Built API endpoints for data ingestion/enrichment of 100M candidate profiles using Django REST Framework"
     ]
   },
   {
-    "title": "Research Intern",
+    "title": "Software Engineer Intern",
     "companyName": "Stanford Future Data Systems Group",
     "companyLink": "http://www.futuredata.io.s3-website-us-west-2.amazonaws.com/",
     "startDate": "Jun 2021",
     "endDate": "Dec 2021",
     "bullets": [
-      "Developed a RAPPOR-based differential privacy module for private user data aggregation on smart home devices",
-      "Implemented a node-ranking algorithm with TypeScript to revamp tree rendering in the Karl UI web application"
-    ],
-    "tag": "yei"
+      "Built a differential privacy module for Karl, enabling anonymous data aggregation on IoT device",
+      "Created the project website and implemented topological sort for the system’s graph visualization UI"
+    ]
   },
   {
     "title": "Co-founder, Chairman",
