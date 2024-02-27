@@ -11,7 +11,7 @@
     ],
     "description": "Created a platform to match startups with their best-fit SWE candidates. Scaled to 200+ candidates and $50K+ in contingency contracts within two months of launch",
     "imgSrc": "../images/polyjobs-screenshot.png",
-    "projectLink": "https://www.polyjobs.ai"
+    "projectLink": "https://polyjobs-demo.vercel.app/"
   },
   {
     "projectName": "Deep RL for Venture Capital",
