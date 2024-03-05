@@ -67,7 +67,7 @@ const Education = () => {
               </div>
               <div className="flex-col flex items-center md:items-start text-center">
                 <p className="date">B.S. Computer Science + Econ</p>
-                <p className="date">GPA: 4.0+</p>
+                <p className="date">June 2025, GPA: 4.0+</p>
               </div>
               <div className="h-4"></div>
               <div className="flex-col flex items-center md:items-start text-center">
