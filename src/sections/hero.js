@@ -1,8 +1,8 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import "./hero-background.css";
 import { FiMail } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import HoverWrapper from "../components/HoverWrapper";
 
 const Hero = () => {
   return (
