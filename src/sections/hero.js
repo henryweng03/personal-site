@@ -4,6 +4,7 @@ import { FiMail } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import HoverWrapper from "../components/HoverWrapper";
 import HoverLink from "../components/HoverLink";
+import HoverTagWrapper from "../components/HoverTagWrapper";
 
 const Hero = () => {
   return (
@@ -60,9 +61,11 @@ const Hero = () => {
               </p>
             </div>
             <div className="mt-6 sm:mt-12 space-x-4 flex justify-center sm:justify-start">
-              <a className="button" href="mailto: hweng@stanford.edu">
-                Say hello! →
-              </a>
+              <HoverTagWrapper hoverText={"hweng [at] stanford.edu"}>
+                <a className="button" href="mailto: hweng@stanford.edu">
+                  Say hello! →
+                </a>
+              </HoverTagWrapper>
             </div>
             <div className="mt-4 sm:mt-6 space-x-4 flex justify-center sm:justify-start">
               <a
