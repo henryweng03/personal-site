@@ -40,20 +40,15 @@ const Hero = () => {
                   linkHoverText={"Demo Day Video"}
                 />{" "}
                 <HoverLink
-                  linkText={"PearX W23"}
-                  linkAddress={"https://pear.vc/pearx/"}
-                  linkHoverText={"www.pear.vc/pearx"}
+                  linkText={"(PearX W23)"}
+                  linkAddress={"https://www.pear.vc/pearx/"}
                 />
                 , an AI workflow for realtors. I'm also the founder and advisor
                 for the{" "}
-                <a
-                  className="link"
-                  href="https://theyei.org"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Youth Economics Initiative
-                </a>
+                <HoverLink
+                  linkText={"Youth Economics Initiative"}
+                  linkAddress={"https://www.theyei.org"}
+                />
                 , a global network of economics clubs in over 90 high schools.
               </p>
             </div>
