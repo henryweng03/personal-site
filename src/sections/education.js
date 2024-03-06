@@ -2,6 +2,7 @@ import React from "react";
 import "../index.css";
 import "./hero-background.css";
 import BadgeList from "../components/BadgeList";
+import HoverLink from "../components/HoverLink";
 
 const collegeCourses = [
   "NLP with Deep Learning",
@@ -55,14 +56,10 @@ const Education = () => {
             <div className="mt-6 md:mt-0 md:pl-10">
               <div className="flex justify-center md:block">
                 <h3>
-                  <a
-                    href="https://www.stanford.edu/"
-                    className="link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Stanford University
-                  </a>
+                  <HoverLink
+                    linkText="Stanford University"
+                    linkAddress="https://www.stanford.edu/"
+                  />
                 </h3>
               </div>
               <div className="flex-col flex items-center md:items-start text-center">
@@ -90,14 +87,10 @@ const Education = () => {
             <div className="mt-6 md:mt-0 md:pl-10">
               <div className="flex justify-center md:block ">
                 <h3>
-                  <a
-                    href="https://www.saratogahigh.org/"
-                    className="link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Saratoga High School
-                  </a>
+                  <HoverLink
+                    linkText="Saratoga High School"
+                    linkAddress={"https://www.saratogahigh.org/"}
+                  />
                 </h3>
               </div>
               <div className="flex-col flex items-center md:items-start text-center">

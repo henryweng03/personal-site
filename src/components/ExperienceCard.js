@@ -9,6 +9,7 @@ const ExperienceCard = ({ props }) => {
         <HoverLink
           linkText={props.companyName}
           linkAddress={props.companyLink}
+          linkHoverText={props.linkHoverText}
         />
       </h3>
       <p className="date">

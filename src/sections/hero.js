@@ -37,7 +37,7 @@ const Hero = () => {
                   linkAddress={
                     "https://youtu.be/xYcmxqW_N6I?si=VLuv71ySgCbkVESv"
                   }
-                  linkHoverText={"Demo Day Video"}
+                  linkHoverText={"Demo day video"}
                 />{" "}
                 <HoverLink
                   linkText={"(PearX W23)"}

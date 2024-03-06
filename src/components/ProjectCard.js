@@ -8,12 +8,14 @@ const ProjectCard = ({
   description,
   imgSrc,
   projectLink,
+  linkHoverText,
 }) => {
   return (
     <HoverTagWrapper
-      hoverText={projectLink
-        .replace(/^(https?|ftp):\/\//, "")
-        .replace(/\/$/, "")}
+      hoverText={
+        linkHoverText ??
+        projectLink.replace(/^(https?|ftp):\/\//, "").replace(/\/$/, "")
+      }
     >
       <a href={projectLink} target="_blank" rel="noreferrer">
         <div

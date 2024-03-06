@@ -4,17 +4,26 @@ const HoverWrapper = ({ children, hoverComponent: HoverComponent }) => {
   const [isHovering, setIsHovering] = useState(false);
   const childRef = useRef(null);
   const hoverRef = useRef(null);
+  const SCROLLBAR_WIDTH = 16;
 
   const calculateHoverPosition = useCallback((event) => {
     const childRect = childRef.current.getBoundingClientRect();
+    const hoverRect = hoverRef.current.getBoundingClientRect();
     const offsetX = event.clientX - childRect.left;
     const offsetY = event.clientY - childRect.top;
 
+    const screenWidth = window.innerWidth;
+    const hoverWidth = hoverRect.width;
+    const spaceOnRight = screenWidth - event.clientX;
+
     if (hoverRef.current) {
-      hoverRef.current.style.left = `${offsetX}px`;
-      hoverRef.current.style.top = `${
-        offsetY - hoverRef.current.offsetHeight - 2
-      }px`;
+      if (spaceOnRight - SCROLLBAR_WIDTH >= hoverWidth) {
+        hoverRef.current.style.left = `${offsetX}px`;
+        hoverRef.current.style.top = `${offsetY - hoverRect.height - 2}px`;
+      } else {
+        hoverRef.current.style.left = `${offsetX - hoverWidth}px`;
+        hoverRef.current.style.top = `${offsetY - hoverRect.height - 2}px`;
+      }
     }
   }, []);
 

@@ -22,6 +22,7 @@ const Projects = () => {
                 description={data.description}
                 imgSrc={data.imgSrc}
                 projectLink={data.projectLink}
+                linkHoverText={data.linkHoverText}
               />
             </div>
           ))}
