@@ -1,18 +1,15 @@
 import React from "react";
+import HoverLink from "./HoverLink.js";
 
 const ExperienceCard = ({ props }) => {
   return (
     <div>
       <h3>
         {props.title} @{" "}
-        <a
-          href={props.companyLink}
-          className="link"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {props.companyName}
-        </a>
+        <HoverLink
+          linkText={props.companyName}
+          linkAddress={props.companyLink}
+        />
       </h3>
       <p className="date">
         {props.startDate} - {props.endDate}
