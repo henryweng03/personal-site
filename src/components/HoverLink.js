@@ -1,14 +1,14 @@
 import React from "react";
 import HoverTagWrapper from "./HoverTagWrapper";
 
-const HoverLink = ({ linkText, linkAddress, linkHoverText }) => {
-  function removeProtocol(url) {
-    // Remove the protocol (e.g., "https://", "http://", "ftp://")
-    const withoutProtocol = url.replace(/^(https?|ftp):\/\//, "");
-    // Remove any trailing slashes
-    return withoutProtocol.replace(/\/$/, "");
-  }
+export function removeProtocol(url) {
+  // Remove the protocol (e.g., "https://", "http://", "ftp://")
+  const withoutProtocol = url.replace(/^(https?|ftp):\/\//, "");
+  // Remove any trailing slashes
+  return withoutProtocol.replace(/\/$/, "");
+}
 
+const HoverLink = ({ linkText, linkAddress, linkHoverText }) => {
   const hoverText = linkHoverText ?? removeProtocol(linkAddress);
 
   return (

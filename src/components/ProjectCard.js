@@ -1,6 +1,7 @@
 import React from "react";
 import BadgeList from "./BadgeList";
 import HoverTagWrapper from "./HoverTagWrapper";
+import { removeProtocol } from "./HoverLink";
 
 const ProjectCard = ({
   projectName,
@@ -11,12 +12,7 @@ const ProjectCard = ({
   linkHoverText,
 }) => {
   return (
-    <HoverTagWrapper
-      hoverText={
-        linkHoverText ??
-        projectLink.replace(/^(https?|ftp):\/\//, "").replace(/\/$/, "")
-      }
-    >
+    <HoverTagWrapper hoverText={linkHoverText ?? removeProtocol(projectLink)}>
       <a href={projectLink} target="_blank" rel="noreferrer">
         <div
           className="p-6 transition duration-150 rounded-xl 

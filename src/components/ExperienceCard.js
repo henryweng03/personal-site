@@ -1,16 +1,24 @@
 import React from "react";
-import HoverLink from "./HoverLink.js";
+import HoverLink, { removeProtocol } from "./HoverLink.js";
+import HoverTagWrapper from "./HoverTagWrapper.js";
 
 const ExperienceCard = ({ props }) => {
   return (
     <div>
       <h3>
         {props.title} @{" "}
-        <HoverLink
-          linkText={props.companyName}
-          linkAddress={props.companyLink}
-          linkHoverText={props.linkHoverText}
-        />
+        <HoverTagWrapper
+          hoverText={props.linkHoverText ?? removeProtocol(props.companyLink)}
+        >
+          <a
+            className="link"
+            href={props.companyLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {props.companyName}
+          </a>
+        </HoverTagWrapper>
       </h3>
       <p className="date">
         {props.startDate} - {props.endDate}
