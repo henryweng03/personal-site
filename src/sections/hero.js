@@ -37,7 +37,7 @@ const Hero = () => {
                   linkAddress={
                     "https://youtu.be/xYcmxqW_N6I?si=VLuv71ySgCbkVESv"
                   }
-                  linkHoverText={"Demo day video"}
+                  linkHoverText={"Watch demo day video"}
                 />{" "}
                 <HoverLink
                   linkText={"(PearX W23)"}
@@ -49,7 +49,8 @@ const Hero = () => {
                   linkText={"Youth Economics Initiative"}
                   linkAddress={"https://www.theyei.org"}
                 />
-                , a global network of economics clubs in over 90 high schools.
+                , an accelerator that's helped 90+ students found economics
+                clubs.
               </p>
             </div>
             <div className="flex mt-3 mx-6 sm:mx-0">

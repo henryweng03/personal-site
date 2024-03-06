@@ -19,7 +19,7 @@
     "description": "Implemented PPO and DQN to train RL agents to make sequential decisions on whether a VC should meet with or invest in a company in a simulated environment. Achieved 75% of the theoretical maximum performance",
     "imgSrc": "../images/ppo-screenshot.png",
     "projectLink": "https://drive.google.com/file/d/1NQnD-79d6UyKCPEZnKWbujajH3KOQHe2/view?usp=sharing",
-    "linkHoverText": "Link to paper"
+    "linkHoverText": "Read paper"
   },
   {
     "projectName": "Pairology",
@@ -33,6 +33,6 @@
     "description": "Built and scaled a matchmaker for meaningful friendships to 1,000+ users and 3,000+ in-person meet ups. Met 3 of my closest friends through the platform",
     "imgSrc": "../images/pairology-screenshot.png",
     "projectLink": "https://www.peared-landing-page-henryweng03.vercel.app/",
-    "linkHoverText": "See archived website"
+    "linkHoverText": "Visit archived website"
   }
 ]
