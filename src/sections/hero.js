@@ -3,6 +3,7 @@ import "./hero-background.css";
 import { FiMail } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import HoverWrapper from "../components/HoverWrapper";
+import HoverLink from "../components/HoverLink";
 
 const Hero = () => {
   return (
@@ -31,22 +32,18 @@ const Hero = () => {
               <p>
                 {" "}
                 I recently took a gap year from school to build{" "}
-                <a
-                  className="link"
-                  href="https://meethazel.ai/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Hazel
-                </a>{" "}
-                <a
-                  className="link"
-                  href="https://pear.vc/pearx/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  (PearX W23)
-                </a>
+                <HoverLink
+                  linkText={"Hazel"}
+                  linkAddress={
+                    "https://youtu.be/xYcmxqW_N6I?si=VLuv71ySgCbkVESv"
+                  }
+                  linkHoverText={"Demo Day Video"}
+                />{" "}
+                <HoverLink
+                  linkText={"PearX W23"}
+                  linkAddress={"https://pear.vc/pearx/"}
+                  linkHoverText={"www.pear.vc/pearx"}
+                />
                 , an AI workflow for realtors. I'm also the founder and advisor
                 for the{" "}
                 <a

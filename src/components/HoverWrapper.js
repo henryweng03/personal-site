@@ -37,7 +37,7 @@ const HoverWrapper = ({ children, hoverComponent: HoverComponent }) => {
           style={{
             left: cursorPosition.x,
             top: hoverRef.current
-              ? cursorPosition.y - hoverRef.current.offsetHeight - 20
+              ? cursorPosition.y - hoverRef.current.offsetHeight - 2
               : cursorPosition.y,
           }}
         >
