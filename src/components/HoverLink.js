@@ -2,7 +2,7 @@ import React from "react";
 import HoverWrapper from "./HoverWrapper";
 
 const HoverLink = ({ linkText, linkAddress, linkHoverText }) => {
-  const HoverInfo = () => {
+  const LinkTag = () => {
     function removeProtocol(url) {
       // Remove the protocol (e.g., "https://", "http://", "ftp://")
       const withoutProtocol = url.replace(/^(https?|ftp):\/\//, "");
@@ -25,9 +25,9 @@ const HoverLink = ({ linkText, linkAddress, linkHoverText }) => {
   };
 
   return (
-    <HoverWrapper hoverComponent={HoverInfo}>
-      <a className="link " href={linkAddress} target="_blank" rel="noreferrer">
-        {linkText}
+    <HoverWrapper hoverComponent={LinkTag}>
+      <a href={linkAddress} target="_blank" rel="noreferrer">
+        <p className="link">{linkText}</p>
       </a>
     </HoverWrapper>
   );
