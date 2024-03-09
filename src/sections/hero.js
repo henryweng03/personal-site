@@ -61,7 +61,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="mt-6 sm:mt-12 space-x-4 flex justify-center sm:justify-start">
-              <HoverTagWrapper hoverText={"hweng [at] stanford.edu"}>
+              <HoverTagWrapper hoverText={"hweng [at] stanford [dot] edu"}>
                 <a className="button" href="mailto: hweng@stanford.edu">
                   Say hello! →
                 </a>
