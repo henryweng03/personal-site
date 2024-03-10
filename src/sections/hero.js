@@ -25,9 +25,7 @@ const Hero = () => {
               </h1>
             </div>
             <div className="flex mt-6 mx-6 sm:mx-0">
-              <p>
-                I study computer science, economics, and statistics at Stanford.
-              </p>
+              <p>I study computer science, economics, and math at Stanford.</p>
             </div>
             <div className="flex mt-3 mx-6 sm:mx-0">
               <p>
@@ -67,7 +65,7 @@ const Hero = () => {
                 </a>
               </HoverTagWrapper>
             </div>
-            <div className="mt-4 sm:mt-6 space-x-4 flex justify-center sm:justify-start">
+            <div className="mt-6 space-x-4 flex justify-center sm:justify-start">
               <a
                 href="https://linkedin.com/in/henry-weng"
                 target="_blank"
