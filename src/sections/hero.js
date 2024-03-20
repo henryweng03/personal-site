@@ -54,8 +54,7 @@ const Hero = () => {
             </div>
             <div className="flex mt-3 mx-6 sm:mx-0">
               <p>
-                These days, I'm working on an AI-enabled journal for human
-                flourishing.
+                These days, I'm building an AI CBT therapist.
               </p>
             </div>
             <div className="mt-6 sm:mt-12 space-x-4 flex justify-center sm:justify-start">
