@@ -29,8 +29,13 @@ const Hero = () => {
             </div>
             <div className="flex mt-3 mx-6 sm:mx-0">
               <p>
-                {" "}
-                I recently took a gap year from school to build{" "}
+                This summer, I'll be working at LangChain (and building an AI
+                therapist in everyone's pocket). Please say hi if you're in SF!
+              </p>
+            </div>
+            <div className="flex mt-3 mx-6 sm:mx-0">
+              <p>
+                Previously, I took a gap year to build{" "}
                 <HoverLink
                   linkText={"Hazel"}
                   linkAddress={
@@ -42,8 +47,8 @@ const Hero = () => {
                   linkText={"(PearX W23)"}
                   linkAddress={"https://www.pear.vc/pearx/"}
                 />
-                , an AI workflow for realtors. I'm also the founder and advisor
-                for the{" "}
+                , an AI workflow for realtors. I'm co-founded and currently
+                advise the{" "}
                 <HoverLink
                   linkText={"Youth Economics Initiative"}
                   linkAddress={"https://www.theyei.org"}
@@ -52,11 +57,7 @@ const Hero = () => {
                 clubs.
               </p>
             </div>
-            <div className="flex mt-3 mx-6 sm:mx-0">
-              <p>
-                These days, I'm building an AI CBT therapist.
-              </p>
-            </div>
+
             <div className="mt-6 sm:mt-12 space-x-4 flex justify-center sm:justify-start">
               <HoverTagWrapper hoverText={"hweng [at] stanford [dot] edu"}>
                 <a className="button" href="mailto: hweng@stanford.edu">
