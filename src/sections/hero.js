@@ -2,7 +2,6 @@ import React from "react";
 import "./hero-background.css";
 import { FiMail } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import HoverWrapper from "../components/HoverWrapper";
 import HoverLink from "../components/HoverLink";
 import HoverTagWrapper from "../components/HoverTagWrapper";
 
@@ -25,12 +24,15 @@ const Hero = () => {
               </h1>
             </div>
             <div className="flex mt-6 mx-6 sm:mx-0">
-              <p>I study computer science, economics, and math at Stanford.</p>
+              <p>
+                I'm study computer science, economics, and math at Stanford.
+              </p>
             </div>
             <div className="flex mt-3 mx-6 sm:mx-0">
               <p>
-                This summer, I'll be working at LangChain (and building an AI
-                therapist in everyone's pocket). Please say hi if you're in SF!
+                This summer, I'm at LangChain building LLM infrastructure, and
+                at Sage building an AI therapist in everyone's pocket. Please
+                say hi if you're in SF!
               </p>
             </div>
             <div className="flex mt-3 mx-6 sm:mx-0">
@@ -47,14 +49,14 @@ const Hero = () => {
                   linkText={"(PearX W23)"}
                   linkAddress={"https://www.pear.vc/pearx/"}
                 />
-                , an AI workflow for realtors. I'm co-founded and currently
-                advise the{" "}
+                , an AI workflow for realtors. I co-founded and currently advise
+                the{" "}
                 <HoverLink
                   linkText={"Youth Economics Initiative"}
                   linkAddress={"https://www.theyei.org"}
                 />
-                , an accelerator that's helped 90+ students found economics
-                clubs.
+                , a nonprofit that's helped students found economics clubs in
+                90+ high schools.
               </p>
             </div>
 
