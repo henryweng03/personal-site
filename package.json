@@ -2,6 +2,9 @@
   "name": "personal_site",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
