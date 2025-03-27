@@ -4,8 +4,8 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["Inter", "Segoe UI"],
-        sfmono: ["SFMono"],
-        messinasans: ["MessinaSans", "Segoe UI"],
+        sfmono: ["Space Mono", "monospace"],
+        instrument: ["Instrument Sans", "Segoe UI"],
       },
       colors: {
         transparent: "transparent",

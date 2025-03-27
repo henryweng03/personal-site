@@ -1,4 +1,6 @@
 /* ./src/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,19 +11,19 @@ html {
 
 @layer base {
   h1 {
-    @apply text-3xl font-messinasans;
+    @apply text-3xl font-instrument;
   }
   h2 {
-    @apply text-2xl font-messinasans;
+    @apply text-2xl font-instrument;
   }
   h3 {
-    @apply font-messinasans text-lg text-white sm:text-xl;
+    @apply font-instrument text-lg text-white sm:text-xl;
   }
   p {
-    @apply font-messinasans text-base text-white sm:text-lg;
+    @apply font-instrument text-base text-white sm:text-lg;
   }
   li {
-    @apply font-messinasans text-base text-gray-300 pb-1;
+    @apply font-instrument text-base text-gray-300 pb-1;
   }
 }
 
@@ -104,51 +106,27 @@ html {
 }
 
 @font-face {
-  font-family: "MessinaSans";
+  font-family: "Instrument Sans";
   font-weight: 400;
-  src: url("./fonts/MessinaSans/MessinaSans-Regular.ttf");
+  src: url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap");
 }
 
 @font-face {
-  font-family: "MessinaSans";
-  font-weight: 700;
-  src: url("./fonts/MessinaSans/MessinaSans-SemiBold.ttf");
+  font-family: "Instrument Sans";
+  font-weight: 500;
+  src: url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500&display=swap");
 }
 
 @font-face {
-  font-family: "MessinaSans";
-  font-weight: 700;
-  src: url("./fonts/MessinaSans/MessinaSans-Black.ttf");
-}
-
-@font-face {
-  font-family: "SFMono";
-  font-weight: 400;
-  src: url("./fonts/SFMono/SFMonoRegular.otf");
-}
-
-@font-face {
-  font-family: "SFMono";
-  font-weight: 700;
-  src: url("./fonts/SFMono/SFMonoBold.otf");
-}
-
-@font-face {
-  font-family: "Inter";
-  font-weight: 400;
-  src: url("./fonts/Inter/Inter-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Inter";
+  font-family: "Instrument Sans";
   font-weight: 600;
-  src: url("./fonts/Inter/Inter-SemiBold.ttf");
+  src: url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@600&display=swap");
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Instrument Sans";
   font-weight: 700;
-  src: url("./fonts/Inter/Inter-Bold.ttf");
+  src: url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700&display=swap");
 }
 
 /* width */
